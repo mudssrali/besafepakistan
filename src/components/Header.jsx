@@ -111,7 +111,7 @@ export function Header() {
             </div> */}
             <Button href="https://forms.gle/8GXomnawWxiQu76D7" color="blue">
               <span>
-                Become a <span className="hidden lg:inline">Volunteer</span>
+                Become Volunteer
               </span>
             </Button>
             <div className="-mr-1 md:hidden">

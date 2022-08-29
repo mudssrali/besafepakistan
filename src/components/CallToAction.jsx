@@ -22,7 +22,7 @@ export function CallToAction() {
             color="blue"
             className="mt-10"
           >
-            Become a Volunteer
+            Become Volunteer
           </Button>
         </div>
       </Container>
