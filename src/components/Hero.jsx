@@ -1,6 +1,3 @@
-import Image from 'next/future/image'
-
-import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 
 export function Hero() {
@@ -22,8 +19,8 @@ export function Hero() {
         updates, fundraisers and volunteers database
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
-        Flood crowdsourcing platform to provide latest updates, database of
-        welfare oragnizations, local fundraisers and volunteers for ongoing flood
+        A crowdsourcing platform to provide latest updates, database of
+        welfare organizations, local fundraisers and volunteers for ongoing flood
         relief efforts across Pakistan.
       </p>
 

@@ -1,6 +1,6 @@
 # BeSafePakistan
 
-Flood crowdsourcing platform to provide latest updates, database of welfare oragnizations, local fundraisers and volunteers for ongoing flood relief efforts across Pakistan.
+A crowdsourcing platform to provide latest updates, database of welfare organizations, local fundraisers and volunteers for ongoing flood relief efforts across Pakistan.
 
 ## Getting started
 

@@ -16,7 +16,7 @@ export default function Home() {
         <title>BeSafePakistan - Flood Updates &amp; Fundraisers Database</title>
         <meta
           name="description"
-          content="BeSafePakistan - a crowdsourcing platform to provide latest flood updates, database of welfare oragnizations, local fundraisers and volunteers for ongoing flood relief efforts across Pakistan."
+          content="BeSafePakistan - a crowdsourcing platform to provide latest flood updates, database of welfare organizations, local fundraisers and volunteers for ongoing flood relief efforts across Pakistan."
         />
       </Head>
       <Header />
