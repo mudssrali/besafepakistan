@@ -77,8 +77,8 @@ function MobileNavigation() {
             as="div"
             className="absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-2xl bg-white p-4 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5"
           >
-            <MobileNavLink href="#welfare-organizations">Welfare Organizations</MobileNavLink>
-            <MobileNavLink href="#fundraisers">Fundraisers</MobileNavLink>
+            <MobileNavLink href="/#welfare-organizations">Welfare Organizations</MobileNavLink>
+            <MobileNavLink href="/#fundraisers">Fundraisers</MobileNavLink>
             <MobileNavLink href="/news">Global Coverage</MobileNavLink>
 
             {/* <hr className="m-2 border-slate-300/40" />
