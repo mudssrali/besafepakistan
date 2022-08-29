@@ -14,7 +14,7 @@ export function Footer() {
             <div className="-my-1 flex justify-center gap-x-6">
               <NavLink href="/#welfare-organizations">Welfare Organizations</NavLink>
               <NavLink href="/#fundraisers">Fundraisers</NavLink>
-              <NavLink href="/news">Global Coverage</NavLink>
+              <NavLink href="/news">News</NavLink>
             </div>
           </nav>
         </div>

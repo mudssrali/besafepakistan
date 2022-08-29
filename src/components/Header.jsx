@@ -79,7 +79,7 @@ function MobileNavigation() {
           >
             <MobileNavLink href="/#welfare-organizations">Welfare Organizations</MobileNavLink>
             <MobileNavLink href="/#fundraisers">Fundraisers</MobileNavLink>
-            <MobileNavLink href="/news">Global Coverage</MobileNavLink>
+            <MobileNavLink href="/news">News</MobileNavLink>
 
             {/* <hr className="m-2 border-slate-300/40" />
             <MobileNavLink href="/contact-us">Contact us</MobileNavLink> */}
@@ -102,7 +102,7 @@ export function Header() {
             <div className="hidden md:flex md:gap-x-6">
               <NavLink href="/#welfare-organizations">Welfare Organizations</NavLink>
               <NavLink href="/#fundraisers">Fundraisers</NavLink>
-              <NavLink href="/news">Global Coverage</NavLink>
+              <NavLink href="/news">News</NavLink>
             </div>
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">
