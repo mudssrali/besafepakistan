@@ -11,6 +11,7 @@ import jdcImage from '@/images/avatars/jdc.jpg'
 import switImage from '@/images/avatars/swit.jpg'
 import handsImage from '@/images/avatars/hands.jpg'
 import byacImage from '@/images/avatars/byac.jpg'
+import imageDawn from '@/images/logos/dawn.png'
 
 
 const oragnizations = [
@@ -102,6 +103,17 @@ const oragnizations = [
   ],
   [
     {
+      content: "Help Pakistan's flood victims by donating to Dawn Relief, We want to extend our efforts to flood-stricken areas across the country. Help us do so by donating generously.",
+      author: {
+        name: "DAWN Relief",
+        role: "Media Agency",
+        image: imageDawn,
+        link: "https://www.dawn.com/news/1706906"
+      }
+    }
+  ],
+  [
+    {
       content: 'BYAC needs yours support for: send in-kind donations to centres, montery support, applify voices of Balochistan people, become a volunteer.',
       author: {
         name: 'BYAC',
@@ -109,7 +121,7 @@ const oragnizations = [
         image: byacImage,
         link: 'https://twitter.com/BYACBalochistan',
       },
-    },
+    }
   ]
 ]
 
