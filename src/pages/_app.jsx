@@ -14,8 +14,6 @@ export default function App({ Component, pageProps, router }) {
     meta.description ||
     'A crowdsourcing platform to provide latest flood updates, database of welfare organizations, local fundraisers'
 
-  console.log(socialCardLarge)
-
   return (
     <>
       <Title suffix={"BeSafe Pakistan"}>{meta.metaTitle || meta.title}</Title>
