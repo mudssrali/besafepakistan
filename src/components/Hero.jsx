@@ -25,7 +25,7 @@ export function Hero() {
       </p>
 
       <div className="mt-36 lg:mt-44">
-        <p className="font-display text-lg font-bold text-slate-900 md:text-2xl">
+        <p className="font-display text-xl font-bold text-slate-900 md:text-2xl">
           Devastation caused by Flood
         </p>
         <ul
@@ -34,9 +34,9 @@ export function Hero() {
         >
           {[
             { title: 'houses destroyed', count: '218K' },
-            { title: 'houses damaged', count: '452K' },
-            { title: 'acres of crops impacted', count: '2M' },
-            { title: 'deaths', count: '1,000+' },
+            { title: 'houses damaged', count: '500K+' },
+            { title: 'acres of crops impacted', count: '2M+' },
+            { title: 'deaths', count: '1,100+' },
             { title: 'injured', count: '1,300+' },
           ].map((group, groupIndex) => (
             <li key={groupIndex}>
