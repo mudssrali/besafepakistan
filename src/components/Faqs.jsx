@@ -40,11 +40,8 @@ const faqs = [
       answer: "Yes, we need like-minded people to help running this platform by sharing authentic information to general public."
     },
     {
-
-    },
-    {
       question: "Who maintain this website?",
-      answer: "This website is maintained by Mudassar Ali, who's manager (software development) at CERP Labs."
+      answer: "This website is built and maintained by Mudassar (https://mudssrali.com), who's manager (software development) at CERP Labs."
     }
   ]
 ]
