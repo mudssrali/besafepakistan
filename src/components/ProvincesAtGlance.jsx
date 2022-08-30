@@ -7,7 +7,7 @@ import { Container } from '@/components/Container'
 import screenshotBalochistan from '@/images/screenshots/balochistan-family-in-flood.webp'
 import screenshotSindh from '@/images/screenshots/sindh-flood-street.webp'
 import screenshotGB from '@/images/screenshots/gb-bridge-collapsed.webp'
-import screenshotKPK from '@/images/screenshots/kpk-electric-poll.webp'
+import screenshotKPK from '@/images/screenshots/kpk-road-destroyed.jpg'
 import screenshotPunjab from '@/images/screenshots/punjab-relief-work.webp'
 import screenshotBalochistanRescued from '@/images/screenshots/balochistan-recued-family.webp'
 
