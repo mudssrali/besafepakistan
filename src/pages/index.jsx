@@ -13,11 +13,17 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>BeSafePakistan - Flood Updates &amp; Fundraisers Database</title>
         <meta
-          name="description"
-          content="BeSafePakistan - a crowdsourcing platform to provide latest flood updates, database of welfare organizations, local fundraisers and volunteers for ongoing flood relief efforts across Pakistan."
+          key="twitter:title"
+          name="twitter:title"
+          content="BeSafe Pakistan - Flood updates and fundraisers database"
         />
+        <meta
+          key="og:title"
+          property="og:title"
+          content="BeSafe Pakistan - Flood updates and fundraisers database"
+        />
+        <title>Flood Updates &amp; Fundraisers Database</title>
       </Head>
       <Header />
       <main>
