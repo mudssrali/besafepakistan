@@ -167,6 +167,56 @@
       "imageTitle": "cnn",
       "title": "Hundreds of children among 1,000 people killed by Pakistan monsoon rains and floods",
       "link": "https://edition.cnn.com/2022/08/28/asia/pakistan-flooding-intl/index.html"
+    },
+    {
+      "from": "NDTV",
+      "imageTitle": "ndtv",
+      "title": "Over 1,000 Killed In Pakistan During 'Monster Monsoon'",
+      "link": "https://www.ndtv.com/world-news/pakistan-floods-over-1-000-killed-in-pakistan-during-monster-monsoon-3297367"
+    },
+    {
+      "from": "Al-Jazeera",
+      "imageTitle": "al-jazeera",
+      "title": "Millions in need of aid as ‘unprecedented’ floods hit Pakistan",
+      "link": "https://www.aljazeera.com/news/2022/8/29/catastrophic-flooding-overwhelms-pakistan"
+    }
+  ],
+  "30-08-2022": [
+    {
+      "from": "BBC",
+      "imageTitle": "bbc",
+      "title": "Pakistan floods: One third of country is under water - minister",
+      "link": "https://www.bbc.com/news/world-europe-62712301"
+    },
+    {
+      "from": "CNN",
+      "imageTitle": "cnn",
+      "title": "In pictures: 'Unprecedented' flooding in Pakistan",
+      "link": "https://edition.cnn.com/2022/08/29/world/gallery/pakistan-flooding/index.html"
+    },
+    {
+      "from": "REUTERS",
+      "imageTitle": "reuters",
+      "title": "Pakistan floods cost at least $10 billion, planning minister says",
+      "link": "https://www.reuters.com/world/asia-pacific/initial-economic-losses-pakistan-floods-least-10-bln-planning-minister-2022-08-29/"
+    },
+    {
+      "from": "BBC",
+      "imageTitle": "bbc",
+      "title": "Pakistan floods: Disaster to cost more than $10bn, minister says",
+      "link": "https://www.bbc.com/news/business-62719659"
+    },
+    {
+      "from": "NDTV",
+      "imageTitle": "ndtv",
+      "title": "'Climate Catastrophe': Pakistan Flood Toll Passes 1,000",
+      "link": "https://www.ndtv.com/world-news/climate-catastrophe-pakistan-flood-toll-passes-1-000-3298540"
+    },
+    {
+      "from": "DAWN",
+      "imageTitle": "dawn",
+      "title": "Govt to form response centre to manage flood crisis",
+      "link": "https://www.dawn.com/news/1707511/govt-to-form-response-centre-to-manage-flood-crisis"
     }
   ]
 }
