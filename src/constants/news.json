@@ -230,5 +230,61 @@
       "title": "Pakistan floods caused by 'monsoon on steroids,' says UN chief in urgent appeal",
       "link": "https://edition.cnn.com/2022/08/29/asia/pakistan-flood-damage-imf-bailout-intl-hnk/index.html"
     }
+  ],
+  "31-08-2022": [
+    {
+      "from": "Arab News",
+      "imageTitle": "arab-news",
+      "title": "In Pakistan, fears of waterborne diseases as floods recede",
+      "link": "https://www.arabnews.pk/node/2153781/pakistan"
+    },
+    {
+      "from": "The Washington Post",
+      "imageTitle": "washington-post",
+      "title": "See the scale of Pakistan’s flooding in maps, photos and videos",
+      "link": "https://www.washingtonpost.com/world/2022/08/31/pakistan-floods-photos-videos-maps/"
+    },
+    {
+      "from": "the Guardian",
+      "imageTitle": "guardian",
+      "title": "Pakistan floods: before-and-after images show extent of devastation",
+      "link": "https://www.theguardian.com/world/2022/aug/31/pakistan-floods-before-and-after-images-show-extent-of-devastation"
+    },
+    {
+      "from": "BBC",
+      "imageTitle": "bbc",
+      "title": "Pakistan floods: Map and satellite photos show extent of devastation",
+      "link": "https://www.bbc.com/news/world-asia-62728678"
+    },
+    {
+      "from": "Relief Web | OCHA",
+      "imageTitle": "relief-web",
+      "title": "Rapid Need Assessment Flood Emergency - Balochistan & Sind (28th Aug 2022)",
+      "link": "https://reliefweb.int/report/pakistan/rapid-need-assessment-flood-emergency-balochistan-sind-28th-aug-2022"
+    },
+    {
+      "from": "Relief Web | OCHA",
+      "imageTitle": "relief-web",
+      "title": "Flood Disaster in Pakistan Situation Report 4 (31 August 2022)",
+      "link": "https://reliefweb.int/report/pakistan/flood-disaster-pakistan-situation-report-4-31-august-2022"
+    },
+    {
+      "from": "The Washington Post",
+      "imageTitle": "washington-post",
+      "title": "Pakistan Could Have Averted Its Climate Catastrophe",
+      "link": "https://www.washingtonpost.com/business/energy/pakistan-could-have-averted-its-climate-catastrophe/2022/08/30/4c2d3d92-28b8-11ed-a90a-fce4015dfc8f_story.html"
+    },
+    {
+      "from": "BBC",
+      "imageTitle": "bbc",
+      "title": "Pakistan floods are ‘a monsoon on steroids’, warns UN chief",
+      "link": "https://www.bbc.com/news/world-asia-62722117"
+    },
+    {
+      "from": "the Guardian",
+      "imageTitle": "guardian",
+      "title": "Pakistan not to blame for climate crisis-fuelled flooding, says PM Shehbaz Sharif",
+      "link": "https://www.theguardian.com/world/2022/aug/30/pakistan-monsoon-on-steroids-flooding-warning-antonio-guterres"
+    }
   ]
 }
