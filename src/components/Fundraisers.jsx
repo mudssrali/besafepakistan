@@ -62,11 +62,11 @@ export function Fundraisers() {
                         <div className="ml-2 flex flex-shrink-0">
                           <p
                             className={clsx(
-                              'inline-flex rounded-full bg-green-100 px-2 text-xs font-semibold leading-5',
+                              'inline-flex rounded-full text-white px-2 text-xs font-semibold leading-5',
                               {
-                                'text-green-500':
+                                'bg-green-500 ':
                                   fundraiser.status === 'verified',
-                                'text-gray-500':
+                                'bg-gray-500':
                                   fundraiser.status === 'unknown',
                               }
                             )}

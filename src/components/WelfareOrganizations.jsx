@@ -13,6 +13,7 @@ import handsImage from '@/images/avatars/hands.jpg'
 import byacImage from '@/images/avatars/byac.jpg'
 import imageDawn from '@/images/logos/dawn.png'
 import imageDawateIslami from '@/images/avatars/dawate-islami.jpg'
+import { ArrowRightIcon } from '@heroicons/react/24/solid'
 
 const oragnizations = [
   [
@@ -154,14 +155,15 @@ export function WelfareOrganizations() {
       className="bg-slate-50 py-20 sm:py-32"
     >
       <Container>
-        <div className="mx-auto max-w-2xl md:text-center">
+        <div className="mx-auto max-w-3xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
             Welfare Organizations in Actions
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            There are a lot of organizations, charity funds and individual are
+            There are many welfare organizations, charities and individual are
             putting their best efforts in relief work. A few of them shown here
-            whom you can support with whatever needed in this time.
+            whom you can support with whatever needed in this time. We&apos;re
+            in the process of adding more as we get their details.
           </p>
         </div>
         <ul
@@ -173,36 +175,42 @@ export function WelfareOrganizations() {
               <ul role="list" className="flex flex-col gap-y-6 sm:gap-y-8">
                 {column.map((org, orgIndex) => (
                   <li key={orgIndex}>
-                    <Link href={org.author.link} passHref={true}>
-                      <figure className="group relative rounded-2xl bg-white p-6 shadow-xl shadow-slate-900/10 hover:bg-blue-300">
-                        <QuoteIcon className="absolute top-6 left-6 fill-slate-100 group-hover:fill-white/10" />
-                        <blockquote className="relative">
-                          <p className="text-lg tracking-tight text-slate-900 group-hover:text-white">
-                            {org.content}
-                          </p>
-                        </blockquote>
-                        <figcaption className="relative mt-6 flex items-center justify-between border-t border-slate-100 pt-6">
-                          <div>
-                            <div className="font-display text-base text-slate-900 group-hover:text-white">
-                              {org.author.name}
-                            </div>
+                    <figure className="relative rounded-2xl bg-white p-6 shadow-xl shadow-slate-900/10">
+                      <QuoteIcon className="absolute top-6 left-6 fill-slate-100" />
+                      <blockquote className="relative">
+                        <p className="text-lg tracking-tight text-slate-900">
+                          {org.content}
+                        </p>
+                      </blockquote>
+                      <figcaption className="relative mt-6 flex items-center justify-between border-t border-slate-100 pt-6">
+                        <div>
+                          <div className="font-display text-base text-slate-900">
+                            {org.author.name}
+                          </div>
 
-                            <div className="mt-1 text-sm text-slate-500 group-hover:text-white">
-                              {org.author.role}
-                            </div>
+                          <div className="mt-1 text-sm text-slate-500">
+                            {org.author.role}
                           </div>
-                          <div className="overflow-hidden rounded-full bg-slate-50">
-                            <Image
-                              className="h-14 w-14 object-cover"
-                              src={org.author.image}
-                              alt={org.author.name}
-                              width={56}
-                              height={56}
-                            />
-                          </div>
-                        </figcaption>
-                      </figure>
-                    </Link>
+                        </div>
+                        <div className="overflow-hidden rounded-full bg-slate-50">
+                          <Image
+                            className="h-14 w-14 object-cover"
+                            src={org.author.image}
+                            alt={org.author.name}
+                            width={56}
+                            height={56}
+                          />
+                        </div>
+                      </figcaption>
+                      <Link
+                        className="mt-6 inline-flex text-sm items-center text-blue-500 group"
+                        href={org.author.link}
+                        passHref={true}
+                      >
+                        <span>DONATE NOW</span>
+                        <ArrowRightIcon className="ml-2 h-5 w-5 group-hover:w-6" />
+                      </Link>
+                    </figure>
                   </li>
                 ))}
               </ul>
