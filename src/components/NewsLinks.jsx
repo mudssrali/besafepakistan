@@ -6,7 +6,7 @@ import { ArrowUpRightIcon } from '@heroicons/react/24/solid'
 import newsLinks from '@/constants/news.json'
 import { Container } from '@/components/Container'
 
-import backgroundImage from '@/images/background-newslinks.jpg'
+import backgroundImage from '@/images/background-primary.jpg'
 import logoDw from '@/images/logos/dw.svg'
 import logoCnn from '@/images/logos/cnn.svg'
 import logoCbs from '@/images/logos/cbs.svg'

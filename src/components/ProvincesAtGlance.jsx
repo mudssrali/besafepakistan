@@ -9,7 +9,7 @@ import screenshotSindh from '@/images/screenshots/sindh-flood-street.webp'
 import screenshotGB from '@/images/screenshots/gb-bridge-collapsed.webp'
 import screenshotKPK from '@/images/screenshots/kpk-road-destroyed.jpg'
 import screenshotPunjab from '@/images/screenshots/punjab-relief-work.webp'
-import screenshotBalochistanRescued from '@/images/screenshots/balochistan-recued-family.webp'
+import backgroundPrimaryImage from '@/images/background-primary.jpg'
 
 
 const provinces = [
@@ -67,12 +67,11 @@ export function ProvincesAtGlance() {
     <section
       id="provinces-at-glance"
       aria-label="provinces after by floods"
-      className="relative overflow-hidden bg-blue-900 pt-20 pb-28 sm:py-32"
-      style={{bacgroungImage: 'url()'}}
+      className="relative overflow-hidden bg-blue-600 pt-20 pb-28 sm:py-32"
     >
       <Image
-        className="absolute top-1/2 left-1/2 max-w-none translate-x-[-44%] translate-y-[-42%] opacity-50"
-        src={screenshotBalochistanRescued}
+        className="absolute top-1/2 left-1/2 max-w-none translate-x-[-44%] translate-y-[-42%]"
+        src={backgroundPrimaryImage}
         alt=""
         width={2245}
         height={1636}
