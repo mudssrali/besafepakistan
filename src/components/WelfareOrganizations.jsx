@@ -12,7 +12,7 @@ import switImage from '@/images/avatars/swit.jpg'
 import handsImage from '@/images/avatars/hands.jpg'
 import byacImage from '@/images/avatars/byac.jpg'
 import imageDawn from '@/images/logos/dawn.png'
-
+import imageDawateIslami from '@/images/avatars/dawate-islami.jpg'
 
 const oragnizations = [
   [
@@ -57,7 +57,7 @@ const oragnizations = [
         image: saharaImage,
         link: 'https://saharaforlife.org/donations/flood-relief/',
       },
-    }
+    },
   ],
   [
     {
@@ -92,37 +92,50 @@ const oragnizations = [
   ],
   [
     {
-      content: 'The floods in Sindh, Punjab and Balochistan have taken many lives, homes and livelihoods of people. They need your urgent and help and support.',
+      content:
+        'FGRF is working day and night to help the flood victims. Donation camps established at various places under FGRF for relief in flood affected areas.',
       author: {
-        name: 'HANDS',
-        role: 'Non-profit Organization',
-        image: handsImage,
-        link: 'https://hands.org.pk/ways-to-donate/',
+        name: 'Dawat-e-Islami',
+        role: 'Non-political Islamic organization',
+        image: imageDawateIslami,
+        link: 'https://twitter.com/MADANIinfo/status/1564636163188613123',
       },
-    }
-  ],
-  [
+    },
     {
-      content: "Help Pakistan's flood victims by donating to Dawn Relief, We want to extend our efforts to flood-stricken areas across the country. Help us do so by donating generously.",
-      author: {
-        name: "DAWN Relief",
-        role: "Media Agency",
-        image: imageDawn,
-        link: "https://www.dawn.com/news/1706906"
-      }
-    }
-  ],
-  [
-    {
-      content: 'BYAC needs yours support for: send in-kind donations to centres, montery support, applify voices of Balochistan people, become a volunteer.',
+      content:
+        'BYAC needs yours support for: send in-kind donations to centres, montery support, applify voices of Balochistan people, become a volunteer.',
       author: {
         name: 'BYAC',
         role: 'Welfare Organization',
         image: byacImage,
         link: 'https://twitter.com/BYACBalochistan',
       },
-    }
-  ]
+    },
+  ],
+  [
+    {
+      content:
+        "Help Pakistan's flood victims by donating to Dawn Relief, We want to extend our efforts to flood-stricken areas across the country. Help us do so by donating generously.",
+      author: {
+        name: 'DAWN Relief',
+        role: 'Media Agency',
+        image: imageDawn,
+        link: 'https://www.dawn.com/news/1706906',
+      },
+    },
+  ],
+  [
+    {
+      content:
+        'The floods in Sindh, Punjab and Balochistan have taken many lives, homes and livelihoods of people. They need your urgent and help and support.',
+      author: {
+        name: 'HANDS',
+        role: 'Non-profit Organization',
+        image: handsImage,
+        link: 'https://hands.org.pk/ways-to-donate/',
+      },
+    },
+  ],
 ]
 
 function QuoteIcon(props) {
@@ -161,7 +174,7 @@ export function WelfareOrganizations() {
                 {column.map((org, orgIndex) => (
                   <li key={orgIndex}>
                     <Link href={org.author.link} passHref={true}>
-                      <figure className="relative rounded-2xl bg-white hover:bg-blue-300 p-6 shadow-xl shadow-slate-900/10 group">
+                      <figure className="group relative rounded-2xl bg-white p-6 shadow-xl shadow-slate-900/10 hover:bg-blue-300">
                         <QuoteIcon className="absolute top-6 left-6 fill-slate-100 group-hover:fill-white/10" />
                         <blockquote className="relative">
                           <p className="text-lg tracking-tight text-slate-900 group-hover:text-white">
