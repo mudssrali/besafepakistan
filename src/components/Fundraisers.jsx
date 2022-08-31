@@ -6,8 +6,8 @@ import {
   ArrowDownTrayIcon,
 } from '@heroicons/react/24/solid'
 import { ClipboardDocumentIcon } from '@heroicons/react/24/outline'
-
 import { Container } from '@/components/Container'
+import { CharityAttentionCallout } from './CharityAttentionCallout'
 import fundraisers from '@/constants/fundraisers'
 import clsx from 'clsx'
 
@@ -27,11 +27,11 @@ export function Fundraisers() {
       <Container>
         <div className="mb-8 max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl md:text-5xl">
-            Flood Fundraisers in Action | Donate
+            Regional Flood Fundraisers | Donate Now
           </h2>
           <p className="mt-6 text-lg font-semibold tracking-tight text-slate-700">
             These are local the fundraisers whom you can donate money, dry
-            rashan, tents etc
+            rashan, tents now.
           </p>
         </div>
         <div className="mb-4 flex items-center justify-between">
@@ -62,12 +62,11 @@ export function Fundraisers() {
                         <div className="ml-2 flex flex-shrink-0">
                           <p
                             className={clsx(
-                              'inline-flex rounded-full text-white px-2 text-xs font-semibold leading-5',
+                              'inline-flex rounded-full px-2 text-xs font-semibold leading-5 text-white',
                               {
                                 'bg-green-500 ':
                                   fundraiser.status === 'verified',
-                                'bg-gray-500':
-                                  fundraiser.status === 'unknown',
+                                'bg-gray-500': fundraiser.status === 'unknown',
                               }
                             )}
                           >
@@ -112,7 +111,15 @@ export function Fundraisers() {
                         ></textarea>
                       </div>
                       <div>
-                        <p>Ref. Link: <a className='underline text-blue-500' href={fundraiser.link}>{fundraiser.link}</a></p>
+                        <p>
+                          Ref. Link:{' '}
+                          <a
+                            className="text-blue-500 underline"
+                            href={fundraiser.link}
+                          >
+                            {fundraiser.link}
+                          </a>
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -120,6 +127,7 @@ export function Fundraisers() {
               ))}
           </ul>
         </div>
+        <CharityAttentionCallout />
       </Container>
     </section>
   )
