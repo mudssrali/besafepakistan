@@ -9,6 +9,12 @@ import { ClipboardDocumentIcon } from '@heroicons/react/24/outline'
 
 import { Container } from '@/components/Container'
 import fundraisers from '@/constants/fundraisers'
+import clsx from 'clsx'
+
+const statusMap = {
+  unknown: 0,
+  verified: 1,
+}
 
 export function Fundraisers() {
   const [selectedProvince, setProvince] = useState('')
@@ -40,24 +46,36 @@ export function Fundraisers() {
         <div className="max-h-screen overflow-y-auto bg-white shadow sm:rounded-md">
           <ul role="list" className="divide-y divide-gray-200">
             {fundraisers
+              .sort((a, b) => a.name.localeCompare(b.name))
+              .sort((a, b) => statusMap[b.status] - statusMap[a.status])
               .filter((f) =>
                 selectedProvince ? f.provinces.includes(selectedProvince) : true
               )
               .map((fundraiser, fundraiserIdx) => (
                 <li key={fundraiser.name + '-' + fundraiserIdx}>
                   <div className="block hover:bg-gray-50">
-                    <div className="px-4 py-4 sm:px-6">
+                    <div className="space-y-2 px-4 py-4 sm:px-6">
                       <div className="flex items-center justify-between">
                         <p className="truncate font-medium text-blue-600">
                           {fundraiser.name}
                         </p>
                         <div className="ml-2 flex flex-shrink-0">
-                          <p className="inline-flex rounded-full bg-green-100 px-2 text-xs font-semibold leading-5 text-green-800">
-                            status: {fundraiser.status}
+                          <p
+                            className={clsx(
+                              'inline-flex rounded-full bg-green-100 px-2 text-xs font-semibold leading-5',
+                              {
+                                'text-green-500':
+                                  fundraiser.status === 'verified',
+                                'text-gray-500':
+                                  fundraiser.status === 'unknown',
+                              }
+                            )}
+                          >
+                            {fundraiser.status}
                           </p>
                         </div>
                       </div>
-                      <div className="mt-2 sm:flex sm:justify-between">
+                      <div className="sm:flex sm:justify-between">
                         <div className="sm:flex">
                           <p className="flex items-center text-sm text-gray-500">
                             <UserIcon
@@ -75,11 +93,11 @@ export function Fundraisers() {
                           </p>
                         </div>
                       </div>
-                      <div className="mt-2 flex flex-col items-start text-sm text-gray-500 sm:mt-0">
+                      <div className="flex flex-col items-start text-sm text-gray-500 sm:mt-0">
                         <p className="font-semibold">What they need?</p>
                         <p>{fundraiser.needs || 'nil'}</p>
                       </div>
-                      <div className="mt-2 flex flex-col text-sm text-gray-500 sm:mt-0">
+                      <div className="flex flex-col text-sm text-gray-500 sm:mt-0">
                         <div className="mb-1 flex flex-row justify-between">
                           <p className="font-semibold">Bank Account Details:</p>
                           <CopyToClipBoard fundraiser={fundraiser} />
@@ -92,6 +110,9 @@ export function Fundraisers() {
                           }
                           className="block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                         ></textarea>
+                      </div>
+                      <div>
+                        <p>Ref. Link: <a className='underline text-blue-500' href={fundraiser.link}>{fundraiser.link}</a></p>
                       </div>
                     </div>
                   </div>
@@ -113,7 +134,15 @@ export const downloadAsCSV = (filename = 'flood-fundraisers-2022') => {
     header: true,
     newline: '\r\n',
     skipEmptyLines: false, //other option is 'greedy', meaning skip delimiters, quotes, and whitespace.
-    columns: ["name", "needs", "contact", "provinces", "sttatus", "accountInfo", "link"]
+    columns: [
+      'name',
+      'needs',
+      'contact',
+      'provinces',
+      'sttatus',
+      'accountInfo',
+      'link',
+    ],
   })
 
   const hiddenElem = document.createElement('a')
