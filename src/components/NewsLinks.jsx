@@ -6,7 +6,7 @@ import { ArrowUpRightIcon } from '@heroicons/react/24/solid'
 import newsLinks from '@/constants/news.json'
 import { Container } from '@/components/Container'
 
-import backgroundImage from '@/images/screenshots/heavy-flooding.webp'
+import backgroundImage from '@/images/background-newslinks.jpg'
 import logoDw from '@/images/logos/dw.svg'
 import logoCnn from '@/images/logos/cnn.svg'
 import logoCbs from '@/images/logos/cbs.svg'
@@ -25,8 +25,6 @@ import logoHoshyarPakistan from '@/images/logos/hoshyar-pakistan.png'
 import logoVoa from '@/images/logos/voa.svg'
 import logoNdtv from '@/images/logos/ndtv.jpg'
 import logoBusinessStandard from '@/images/logos/business-standard.png'
-
-
 
 const logos = {
   dw: logoDw,
@@ -54,10 +52,10 @@ export function NewsLinks() {
     <section
       id="#reporting"
       aria-label="News reporting by world news agencies"
-      className="relative overflow-hidden bg-blue-900 pt-20 pb-28 sm:py-32"
+      className="relative overflow-hidden bg-blue-600 pt-20 pb-28 sm:py-32"
     >
       <Image
-        className="absolute top-1/2 left-1/2 max-w-none translate-x-[-44%] translate-y-[-42%] opacity-50"
+        className="absolute top-1/2 left-1/2 max-w-none translate-x-[-44%] translate-y-[-42%]"
         src={backgroundImage}
         alt=""
         width={2245}
