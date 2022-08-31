@@ -217,6 +217,18 @@
       "imageTitle": "dawn",
       "title": "Govt to form response centre to manage flood crisis",
       "link": "https://www.dawn.com/news/1707511/govt-to-form-response-centre-to-manage-flood-crisis"
+    },
+    {
+      "from": "The Washington Post",
+      "imageTitle": "washington-post",
+      "title": "Pakistan reels from ‘apocalyptic’ floods, pleads for international aid",
+      "link": "https://www.washingtonpost.com/world/2022/08/30/pakistan-flooding-underwater-monsoon/"
+    },
+    {
+      "from": "CNN",
+      "imageTitle": "cnn",
+      "title": "Pakistan floods caused by 'monsoon on steroids,' says UN chief in urgent appeal",
+      "link": "https://edition.cnn.com/2022/08/29/asia/pakistan-flood-damage-imf-bailout-intl-hnk/index.html"
     }
   ]
 }
