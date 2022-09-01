@@ -1096,5 +1096,25 @@
     "accountInfo": "IBAN: \n\nBank of Punjab PK19BPUN6010038916600010",
     "link": "https://www.instagram.com/sphere_pakistan/?hl=en",
     "status": "unknown"
+  },
+  {
+    "name": "Hira Arif",
+    "provinces": ["Sindh"],
+    "needs": "Food, Tents",
+    "contact": "",
+    "accountInfo": "Bank Alfalah\nA/C: 01531006354642",
+    "link": "",
+    "socialLinks": [],
+    "status": "unknown"
+  },
+  {
+    "name": "Transparent Hands",
+    "provinces": ["Sindh", "KPK", "Punjab"],
+    "needs": "Food, Medical Care",
+    "contact": "",
+    "accountInfo": "Account Title: \"Transparent Hands Trust\"\nAccount Number: 220951896\nBranch Code: 0635\nIBAN Number: PK46 UNIL 0109 0002 2095 1896\nBank Address: United Bank Limited,Bank Square,Block C,Model Town Lahore, Pakistan.",
+    "link": "https://www.transparenthands.org/medical-camps/flood-victims-await-urgent-medical-care/",
+    "socialLinks": [],
+    "status": "verified"
   }
 ]

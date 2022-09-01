@@ -1,15 +1,19 @@
-import Papa from 'papaparse'
 import { useState } from 'react'
+import Papa from 'papaparse'
+import clsx from 'clsx'
+import Link from 'next/link'
+
 import {
   UserIcon,
   MapPinIcon,
   ArrowDownTrayIcon,
+  ArrowRightIcon,
 } from '@heroicons/react/24/solid'
 import { ClipboardDocumentIcon } from '@heroicons/react/24/outline'
+
 import { Container } from '@/components/Container'
 import { CharityAttentionCallout } from './CharityAttentionCallout'
 import fundraisers from '@/constants/fundraisers'
-import clsx from 'clsx'
 
 const statusMap = {
   unknown: 0,
@@ -56,7 +60,7 @@ export function Fundraisers() {
                   <div className="block hover:bg-gray-50">
                     <div className="space-y-2 px-4 py-4 sm:px-6">
                       <div className="flex items-center justify-between">
-                        <p className="truncate font-medium text-blue-600">
+                        <p className="truncate text-lg font-semibold text-blue-600">
                           {fundraiser.name}
                         </p>
                         <div className="ml-2 flex flex-shrink-0">
@@ -102,7 +106,7 @@ export function Fundraisers() {
                           <CopyToClipBoard fundraiser={fundraiser} />
                         </div>
                         <textarea
-                          rows={5}
+                          rows={4}
                           readOnly={true}
                           defaultValue={
                             fundraiser.accountInfo || 'Details not provided!'
@@ -111,15 +115,16 @@ export function Fundraisers() {
                         ></textarea>
                       </div>
                       <div>
-                        <p>
-                          Ref. Link:{' '}
-                          <a
-                            className="text-blue-500 underline"
+                        {fundraiser.link && (
+                          <Link
+                            className="group mt-2 inline-flex items-center text-sm text-blue-500"
                             href={fundraiser.link}
+                            passHref={true}
                           >
-                            {fundraiser.link}
-                          </a>
-                        </p>
+                            <span>ONLINE DONATION</span>
+                            <ArrowRightIcon className="ml-2 h-5 w-5 group-hover:w-6" />
+                          </Link>
+                        )}
                       </div>
                     </div>
                   </div>
