@@ -88,9 +88,7 @@ export function NewsLinks() {
 
 export default function News() {
   // take latest news date
-  const [date] = Object.entries(newsLinks).sort(([a], [b]) =>
-    b.localeCompare(a)
-  )[0]
+  const date = Object.keys(newsLinks).reverse()[0]
 
   const [newsDate, setNewsDate] = useState(date)
 
