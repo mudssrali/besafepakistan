@@ -26,6 +26,9 @@ import logoVoa from '@/images/logos/voa.svg'
 import logoNdtv from '@/images/logos/ndtv.jpg'
 import logoBusinessStandard from '@/images/logos/business-standard.png'
 import logoArabNews from '@/images/logos/arab-news.png'
+import logoNasa from '@/images/logos/nasa.png'
+import logoNature from '@/images/logos/nature.svg'
+
 
 const logos = {
   dw: logoDw,
@@ -46,7 +49,9 @@ const logos = {
   ndtv: logoNdtv,
   'business-standard': logoBusinessStandard,
   'hoshyar-pakistan': logoHoshyarPakistan,
-  "arab-news": logoArabNews
+  'arab-news': logoArabNews,
+  nasa: logoNasa,
+  nature: logoNature
 }
 
 export function NewsLinks() {
