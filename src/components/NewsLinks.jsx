@@ -2,6 +2,7 @@ import clsx from 'clsx'
 import Image from 'next/future/image'
 import { useState } from 'react'
 import { ArrowUpRightIcon } from '@heroicons/react/24/solid'
+import { DateTime } from 'luxon'
 
 import newsLinks from '@/constants/news.json'
 import { Container } from '@/components/Container'
@@ -29,7 +30,6 @@ import logoArabNews from '@/images/logos/arab-news.png'
 import logoNasa from '@/images/logos/nasa.png'
 import logoNature from '@/images/logos/nature.svg'
 
-
 const logos = {
   dw: logoDw,
   cnn: logoCnn,
@@ -51,7 +51,7 @@ const logos = {
   'hoshyar-pakistan': logoHoshyarPakistan,
   'arab-news': logoArabNews,
   nasa: logoNasa,
-  nature: logoNature
+  nature: logoNature,
 }
 
 export function NewsLinks() {
@@ -135,7 +135,7 @@ export default function News() {
                 </a>
               </h3>
               <p className="text-gray-700">{nl.title}</p>
-              <p className="text-xs italic text-gray-500">Date: {newsDate}</p>
+              <p className="text-xs italic text-gray-500">{DateTime.fromFormat(newsDate, "dd-MM-yyyy").toFormat("MMMM dd, yyyy")}</p>
             </div>
             <span aria-hidden="true">
               <ArrowUpRightIcon className="pointer-events-none absolute top-6 right-6 h-6 w-6 text-gray-500 group-hover:text-gray-700" />
@@ -148,7 +148,7 @@ export default function News() {
 }
 
 function DateSelector({ onChange, selectedDate }) {
-  const newsDates = Object.keys(newsLinks).sort((a, b) => b.localeCompare(a))
+  const newsDates = Object.keys(newsLinks).reverse()
 
   return (
     <select
@@ -160,7 +160,7 @@ function DateSelector({ onChange, selectedDate }) {
     >
       {newsDates.map((d) => (
         <option key={d} value={d}>
-          {d}
+          {DateTime.fromFormat(d, "dd-MM-yyyy").toFormat("MMM dd, yyyy")}
         </option>
       ))}
     </select>
