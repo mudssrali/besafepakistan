@@ -201,7 +201,7 @@
   },
   {
     "name": "HANDS",
-    "provinces": ["Balochistan", "Gilgit Baltistan", "KPK", "Punjab","Sindh"],
+    "provinces": ["Balochistan", "Gilgit Baltistan", "KPK", "Punjab", "Sindh"],
     "needs": "",
     "contact": "03461117771",
     "accountInfo": "",
@@ -1076,7 +1076,9 @@
     "contact": "",
     "accountInfo": "https://www.justgiving.com/fundraising/pakistansupport",
     "link": "https://www.linkedin.com/posts/dr-shameela-islam-zulfiqar-31930a247_alhamdulillah-its-confirmed-i-am-preparing-activity-6970083071664476160-hz7j",
-    "socialLinks": ["https://www.linkedin.com/in/dr-shameela-islam-zulfiqar-31930a247/"],
+    "socialLinks": [
+      "https://www.linkedin.com/in/dr-shameela-islam-zulfiqar-31930a247/"
+    ],
     "status": "verified"
   },
   {
@@ -1094,8 +1096,8 @@
     "needs": "Cash + In kind. Medicines, water, dry ration, ready-to-eat food, tents, slippers, sheets, clothes. ",
     "contact": "",
     "accountInfo": "IBAN: \n\nBank of Punjab PK19BPUN6010038916600010",
-    "link": "https://www.instagram.com/sphere_pakistan/?hl=en",
-    "status": "unknown"
+    "link": "https://www.instagram.com/sphere_pakistan",
+    "status": "verified"
   },
   {
     "name": "Hira Arif",
@@ -1114,6 +1116,70 @@
     "contact": "",
     "accountInfo": "Account Title: \"Transparent Hands Trust\"\nAccount Number: 220951896\nBranch Code: 0635\nIBAN Number: PK46 UNIL 0109 0002 2095 1896\nBank Address: United Bank Limited,Bank Square,Block C,Model Town Lahore, Pakistan.",
     "link": "https://www.transparenthands.org/medical-camps/flood-victims-await-urgent-medical-care/",
+    "socialLinks": [],
+    "status": "verified"
+  },
+  {
+    "name": "Developments in Literacy",
+    "provinces": ["Sindh"],
+    "needs": "Donations",
+    "contact": "03133911931",
+    "accountInfo": "Title: Developments in Literacy \nBank: Standard Chartered\nAccount No: 08-7052053-16\nBranch: Saudi Pak Tower Islamabad",
+    "link": "https://www.dil.org/donate",
+    "socialLinks": [
+      "https://www.facebook.com/supportdil",
+      "https://twitter.com/supportdil",
+      "https://www.instagram.com/support_dil/"
+    ],
+    "status": "verified"
+  },
+  {
+    "name": "Lasbela Welfare Trust (LWT)",
+    "provinces": ["Sindh", "Balochistan"],
+    "needs": "Donations, Dry Rashan, Clothes, Tents",
+    "contact": "03402405968; 03442299935; 0853610611 ",
+    "accountInfo": "NBP 4145507722 LUAWMS Branch\n*IBAN* .PK53NBPA2161004145507722",
+    "link": "https://www.facebook.com/lwtlasbela/",
+    "socialLinks": [],
+    "status": "verified"
+  },
+  {
+    "name": "Bringing Smiles",
+    "provinces": ["Balochistan"],
+    "needs": "Donations, Dry Rashan, Clothes, Tents",
+    "contact": "923345092939",
+    "accountInfo": "017 09248101\nHaider Anwar\nStandard Chartered Bank. \n\nEasypaisa account details\n03345092939 (account)\n\nInternational Transactions. \n\nHaider Anwar\nIBan:\nPK49SCBL0000001709248101\n\nSwift code:\nSCBLPKKXXXX",
+    "link": "https://www.facebook.com/BringingSmilesPK/",
+    "socialLinks": [],
+    "status": "verified"
+  },
+  {
+    "name": "Madam Arzo Khan",
+    "provinces": ["KPK"],
+    "needs": "Funds",
+    "contact": "",
+    "accountInfo": "Account no. 0120032371\nTitle Aman Ullah\nAllied Bank Ltd.\nBranch code 0864\nDalzak road, Faqirabad, Peshawar ",
+    "link": "https://youtu.be/8rGmgyQ25e8",
+    "socialLinks": [],
+    "status": "unknown"
+  },
+  {
+    "name": "Sagar Maheshwari",
+    "provinces": ["Sindh"],
+    "needs": "cash for ration, clothes, medicines, mosquito nets",
+    "contact": "Sagar 0336 3758203",
+    "accountInfo": "Bank: UBL\r\nAccount number: 246369789\r\nBR Code: 1741\r\nEasy Paisa: 0336 3758203\r",
+    "link": "",
+    "socialLinks": [],
+    "status": "unknown"
+  },
+  {
+    "name": "Star Women's Sports Academy",
+    "provinces": ["Sindh"],
+    "needs": "cash for meals they are cooking and sending out to affectees; these are young girls who are self-organizing in their community",
+    "contact": "Erum Baloch\r\n0333 7151251",
+    "accountInfo": "Bank: Meezan Bank\r\nAccount Title: Erum Baloch\r\nBank Account Number: PK12MEZN0098180104647038",
+    "link": "https://www.facebook.com/SWSA.PK/",
     "socialLinks": [],
     "status": "verified"
   }
