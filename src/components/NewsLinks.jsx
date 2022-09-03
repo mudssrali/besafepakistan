@@ -135,7 +135,7 @@ export default function News() {
                 </a>
               </h3>
               <p className="text-gray-700">{nl.title}</p>
-              <p className="text-xs italic text-gray-500">Date: {date}</p>
+              <p className="text-xs italic text-gray-500">Date: {newsDate}</p>
             </div>
             <span aria-hidden="true">
               <ArrowUpRightIcon className="pointer-events-none absolute top-6 right-6 h-6 w-6 text-gray-500 group-hover:text-gray-700" />
