@@ -33,14 +33,14 @@ export function Fundraisers() {
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl md:text-5xl">
             Regional Flood Fundraisers | Donate Now
           </h2>
-          <p className="mt-6 text-lg font-semibold tracking-tight text-slate-700">
+          <p className="mt-6 text-lg tracking-tight text-slate-700">
             These are local the fundraisers whom you can donate money, dry
             rashan, tents now.
           </p>
         </div>
         <div className="mb-4 flex items-center justify-between">
           <p>
-            <span className="font-semibold">Total</span>: {fundraisers.length}
+            <span className="font-semibold">Total Fundraisers</span>: {fundraisers.length}
           </p>
           <div className="flex space-x-2">
             <ProvinceSelector onChange={setProvince} />
