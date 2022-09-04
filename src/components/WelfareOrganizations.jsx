@@ -1,5 +1,6 @@
 import Image from 'next/future/image'
 import Link from 'next/link'
+import { ArrowRightIcon } from '@heroicons/react/24/solid'
 
 import { Container } from '@/components/Container'
 import akhuwatImage from '@/images/avatars/akhuwat.jpg'
@@ -12,7 +13,7 @@ import switImage from '@/images/avatars/swit.jpg'
 import handsImage from '@/images/avatars/hands.jpg'
 import imageDawn from '@/images/logos/dawn.png'
 import imageDawateIslami from '@/images/avatars/dawate-islami.jpg'
-import { ArrowRightIcon } from '@heroicons/react/24/solid'
+import imageSAF from '@/images/avatars/shahid-afridi-foundation.png'
 
 const oragnizations = [
   [
@@ -107,6 +108,17 @@ const oragnizations = [
         image: imageDawateIslami,
         link: 'https://www.dawateislami.net',
         donateLink: 'https://www.dawateislami.net/onlinedonation/',
+      },
+    },
+    {
+      content:
+        'Help Us, Help Them! Our mission to provide relief to the affectees needs your help in continuing these efforts by contributing, sharing, and spreading our message across the country. Do your part in ensuring Hope Not Out for all.',
+      organization: {
+        name: 'Shahid Afrid Foundation',
+        role: 'Non-profit Organization',
+        image: imageSAF,
+        link: 'https://shahidafridifoundation.org/',
+        donateLink: 'https://shahidafridifoundation.org/donation/',
       },
     },
   ],
