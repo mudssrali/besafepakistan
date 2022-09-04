@@ -33,10 +33,10 @@ export function Hero() {
           className="mt-8 flex flex-col items-center justify-center md:gap-x-10 md:flex-row sm:gap-y-10 xl:flex-row xl:gap-x-14 xl:gap-y-0"
         >
           {[
-            { title: 'houses destroyed', count: '320K+' },
+            { title: 'houses destroyed', count: '350K+' },
             { title: 'houses damaged', count: '730K+' },
             { title: 'acres of crops impacted', count: '2M+' },
-            { title: 'deaths', count: '1,200+' },
+            { title: 'deaths', count: '1,265' },
             { title: 'injured', count: '1,600+' },
             { title: 'livestock lost', count: '730K+'}
           ].map((group, groupIndex) => (

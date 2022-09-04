@@ -16,31 +16,31 @@ const provinces = [
   {
     title: 'Balochistan',
     description:
-      "Flooding in Balochistan killed over 273 people. In many areas, rainwater infiltrated many homes and made them uninhabitable.",
+      "Flooding in Balochistan killed 244 people. In many areas, rainwater infiltrated many homes and made them uninhabitable. Many families were displaced.",
     image: screenshotBalochistan,
   },
   {
     title: 'Gilgit Baltistan',
     description:
-      'Since July, a total of at least 19 people were killed, four are missing and floods badly affected the Karakoram Highway.',
+      'Since July, a total of at least 22 people were killed, four are missing and floods badly affected the Karakoram Highway. Roads were closed for traffic at several places due to landslides',
     image: screenshotGB,
   },
   {
     title: 'KPK',
     description:
-      "Since July, a total of at least 235 people have been killed and 450 others were injured by floods.",
+      "Since July, a total of at least 264 people have been killed and 600,000 others were displaced by floods.",
     image: screenshotKPK,
   },
   {
     title: 'Punjab',
     description:
-      "In Punjab a total of 203 people have lost their lives and 233 others suffered injuries in recent floods",
+      "In Punjab, mainly affecting the southern region of the province, a total of 168 people have died and 105 others suffered injuries in recent floods.",
     image: screenshotPunjab,
   },
   {
     title: 'Sindh',
     description:
-      'At least 351 people have been killed and 701 have been injured by floods in Sindh.',
+      'At least 402 people have been killed and 1,055 have been injured by floods in Sindh. Among the fatalities were three young children, who died when the roof of their house collapsed in Kandhkot.',
     image: screenshotSindh,
   }
 ]
