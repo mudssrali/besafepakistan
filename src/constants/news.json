@@ -285,6 +285,12 @@
       "imageTitle": "guardian",
       "title": "Pakistan not to blame for climate crisis-fuelled flooding, says PM Shehbaz Sharif",
       "link": "https://www.theguardian.com/world/2022/aug/30/pakistan-monsoon-on-steroids-flooding-warning-antonio-guterres"
+    },
+    {
+      "from": "Al-Jazeera",
+      "imageTitle": "al-jazeera",
+      "title": "Pakistan steps up aid efforts after ravaging floods",
+      "link": "https://www.aljazeera.com/news/2022/8/31/misery-mounts-for-millions-in-pakistans-monsoon-on-steroids"
     }
   ],
   "01-09-2022": [
@@ -311,6 +317,12 @@
       "imageTitle": "reuters",
       "title": "South Pakistan braces for yet more flooding as waters flow down from north",
       "link": "https://www.reuters.com/world/asia-pacific/south-pakistan-braces-surge-flood-water-flowing-north-2022-09-01/"
+    },
+    {
+      "from": "Al-Jazeera",
+      "imageTitle": "al-jazeera",
+      "title": "Photos: Flood-hit Pakistan now fights waterborne diseases",
+      "link": "https://www.aljazeera.com/gallery/2022/9/1/photos-flood-hit-pakistan-now-fights-waterborne-diseases" 
     }
   ],
   "02-09-2022": [
@@ -361,6 +373,12 @@
       "imageTitle": "bbc",
       "title": "Pakistan floods: Time running out for families in Sindh",
       "link": "https://www.bbc.com/news/world-asia-62757605"
+    },
+    {
+      "from": "NDTV",
+      "imageTitle": "ndtv",
+      "title": "Nothing But Mud As Mother, Newborn Return Home After Floods In Pakistan",
+      "link": "https://www.ndtv.com/world-news/pakistan-floods-nothing-but-mud-as-mother-newborn-return-home-3309317"
     }
   ],
   "03-09-2022": [
@@ -399,6 +417,24 @@
       "imageTitle": "dawn",
       "title": "Kotri Barrage to pass peak of high flood today",
       "link": "https://www.dawn.com/news/1708050/kotri-barrage-to-pass-peak-of-high-flood-today "
+    },
+    {
+      "from": "Al-Jazeera",
+      "imageTitle": "al-jazeera",
+      "title": "Pakistan appeals for more aid as flood death toll rises",
+      "link": "https://www.aljazeera.com/news/2022/9/3/pakistan-appeals-for-more-aid-as-flood-death-toll-rises"
+    },
+    {
+      "from": "NDTV",
+      "imageTitle":"ndtv",
+      "title": "'We Have Gone Back 50 Years': Pakistan Farmers On Flood Damage",
+      "link":"https://www.ndtv.com/world-news/pakistan-floods-we-have-gone-back-50-years-pakistan-farmers-on-flood-damage-3312296"
+    },
+    {
+      "from": "REUTERS",
+      "imageTitle": "reuters",
+      "title": "Pakistan flood toll rises with 25 children among 57 more deaths",
+      "link": "https://www.reuters.com/article/idUSL1N30A05X"
     }
   ]
 }
