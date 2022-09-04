@@ -436,5 +436,43 @@
       "title": "Pakistan flood toll rises with 25 children among 57 more deaths",
       "link": "https://www.reuters.com/article/idUSL1N30A05X"
     }
+  ],
+  "04-09-2022": [
+    {
+      "from": "DAWN",
+      "imageTitle": "dawn",
+      "title": "Govt decides to get PM’s Flood Relief Fund audited, make its report public",
+      "link": "https://www.dawn.com/news/1708291/govt-decides-to-get-pms-flood-relief-fund-audited-make-its-report-public"
+    },
+    {
+      "from": "REUTERS",
+      "imageTitle": "reuters",
+      "title": "Flood-hit Pakistan breaches lake to avert overflow",
+      "link": "https://www.reuters.com/world/asia-pacific/flood-hit-pakistan-breaches-largest-freshwater-lake-avert-overflow-2022-09-04/"
+    },
+    {
+      "from": "The Washington Post",
+      "imageTitle": "washington-post",
+      "title": "Pakistan’s hope as lake fills: Flood villages to save a city",
+      "link": "https://www.washingtonpost.com/world/pakistani-officials-swelling-lake-could-cause-more-flooding/2022/09/04/2329a47c-2c31-11ed-bcc6-0874b26ae296_story.html"
+    },
+    {
+      "from": "Voice of America",
+      "imageTitle": "voa",
+      "title": "Flood-Hit Pakistan Breaches Largest Freshwater Lake to Avert Overflow",
+      "link": "https://www.voanews.com/a/flood-hit-pakistan-breaches-largest-freshwater-lake-to-avert-overflow-/6730517.html"
+    },
+    {
+      "from": "CBS News",
+      "imageTitle": "cbs",
+      "title": "Pakistani officials warn that swelling lake could cause more flooding",
+      "link": "https://www.cbsnews.com/news/pakistan-flooding-lake-manchar-swelling/"
+    },
+    {
+      "from": "the Guardian",
+      "imageTitle": "guardian",
+      "title": "Pakistan authorities breach lake to save other areas from floods",
+      "link": "https://www.theguardian.com/world/2022/sep/04/pakistan-more-floods-lake-manchar-swells-monsoon-rains"
+    }
   ]
 }
