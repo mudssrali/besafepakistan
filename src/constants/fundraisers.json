@@ -1182,5 +1182,45 @@
     "link": "https://www.facebook.com/SWSA.PK/",
     "socialLinks": [],
     "status": "verified"
+  },
+  {
+    "name": "Tuaam-e-Miskeen Foundation",
+    "provinces": ["Sindh", "Balochistan", "KPK", "Punjab"],
+    "needs": "cash for clothes and shoes; dry rations; tents; cooked meals; medicines; water; soap; mosquito repellents. They have been supporting about 200 families in these areas across the covered districts.\n\nin addition to cash, they also accept in-kind donations of the above mentioned items",
+    "contact": "Syed Awais \n0321 8517138",
+    "accountInfo": "Bank: Standard Chartered\nAccount title: Syed Awais Zafar\nBank Account Number: PK42SCBL0000001713888901\n\nJazz Cash and easypaisa: 03218517138",
+    "link": "https://tuaamfoundation.org",
+    "socialLinks": [],
+    "status": "verified"
+  },
+  {
+    "name": "Pak Al-Sadiq Welfare Foundation",
+    "provinces": ["Balochistan"],
+    "needs": "cash for mosquito nets; water; medicines; life saving kits; women's essentials; dry milk; tarps/ plastic coverings; dry rations; ready to eat meals.\n\nAs of Sept 4, they have delivered their third truck and distributed items.",
+    "contact": "Jarrar Haider: 03004138468, 03316313845",
+    "accountInfo": "Bank: Bank Al-Habib Limited\nBranch: Circular road, Lahore\nAccount Title: Pak Al-Sadiq Welfare Foundation\nAccount number: 00190981006430018\nIBAN: PK65BAHL0019098100643001\n",
+    "link": "https://web.facebook.com/pak.alsadiq.welfare.foundation",
+    "socialLinks": [],
+    "status": "verified"
+  },
+  {
+    "name": "Aado Ram Bhagat + Hindu community",
+    "provinces": [],
+    "needs": "cash to rebuild homes and manage daily survival.  the community has lost homes, livestock,belongings.",
+    "contact": "",
+    "accountInfo": "Account Title: Aadhu Ram_Asaan Account\r\nBank: MCB Limited\r\nAccount number: PK 68 MUCB 0913 2865 3100 8703\r",
+    "link": "",
+    "socialLinks": [],
+    "status": "unknown"
+  },
+  {
+    "name": " Sarki Atta",
+    "provinces": ["Sindh"],
+    "needs": "cash to provide ration bags to families in these villages. each ration bag is costing PKR 4000-5000 and lasts a single family upto 15-20 days",
+    "contact": "",
+    "accountInfo": "Atta Muhammad Serki\r\nAcc # 10176667, Branch Code 0277\r\nUBL Sarafa branch Jacobabad\r\nIBAN: PK98 UNIL 0112 0277 101667\r",
+    "link": "",
+    "socialLinks": [],
+    "status": "unknown"
   }
 ]
