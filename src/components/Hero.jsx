@@ -36,7 +36,7 @@ export function Hero() {
             { title: 'houses destroyed', count: '350K+' },
             { title: 'houses damaged', count: '730K+' },
             { title: 'acres of crops impacted', count: '2M+' },
-            { title: 'deaths', count: '1,265' },
+            { title: 'deaths', count: '1,290+' },
             { title: 'injured', count: '1,600+' },
             { title: 'livestock lost', count: '730K+'}
           ].map((group, groupIndex) => (
