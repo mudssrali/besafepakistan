@@ -15,28 +15,54 @@ import imageDawn from '@/images/logos/dawn.png'
 import imageDawateIslami from '@/images/avatars/dawate-islami.jpg'
 import imageSAF from '@/images/avatars/shahid-afridi-foundation.png'
 
+import imageAgosh from '@/images/avatars/agosh.jpeg'
+import imageAkhuwatUs from '@/images/avatars/akhuwat-us.jpeg'
+import imageHhrd from '@/images/avatars/hhrd.jpg'
+import imageHidaya from '@/images/avatars/hidaya.jpeg'
+import imageHope from '@/images/avatars/hope.jpeg'
+import imageHumanDevelopment from '@/images/avatars/human-development.jpeg'
+import imageIcare from '@/images/avatars/icare.jpeg'
+import imageIslamicRelief from '@/images/avatars/islamic-relief.jpg'
+import imageMuslimAid from '@/images/avatars/muslim-aid.jpeg'
+import imageMwf from '@/images/avatars/mwf.jpeg'
+import imagePaksef from '@/images/avatars/paksef.jpeg'
+import imagePaani from '@/images/avatars/paani.jpeg'
+import imageMausa from '@/images/avatars/mausa.jpg'
+import imageTcfUs from '@/images/avatars/tcfus.jpeg'
+import imageZakatUs from '@/images/avatars/zakat-us.jpg'
+
 const oragnizations = [
   [
     {
       content:
         'Akhuwat is supporting brothers & sisters severely affected by floods in Balochistan, Sindh & South Punjab. As an immediate action, Akhuwat intends to present cash assistance worth Rs. 3 to 4 thousand to approximately 10,000 families for food & basic necessities.',
-      organization: {
-        name: 'Akhuwat',
-        role: 'Interest free Microfinance Orgnization',
-        image: akhuwatImage,
-        link: 'https://akhuwat.org.pk',
-        donateLink: 'https://donate.akhuwat.org.pk/campaign/1365/flood-relief',
+      name: 'Akhuwat',
+      role: 'Interest free Microfinance Orgnization',
+      image: akhuwatImage,
+      link: 'https://akhuwat.org.pk',
+      donateLink: 'https://donate.akhuwat.org.pk/campaign/1365/flood-relief',
+      accountInfo: {
+        bankName: 'Meezan Bank',
+        accountTitle: 'Akhuwat (Awami Pool)',
+        accountNumber: '02220100172932',
+        IBAN: 'PK35MEZN0002220100172932',
+        swiftCode: 'MEZNPKKA',
       },
     },
     {
       content:
         'A salute to the efforts of #AlkhidmatVolunteers who are risking their own lives and going above and beyond to save those in need. Even the darkness of the night, the level of flood water and wreckage can not stop our Volunteers.',
-      organization: {
-        name: 'Alkhidmat Foundation Pakistan',
-        role: 'Charity Orgnization',
-        image: alkhidmatImage,
-        link: 'https://alkhidmat.org',
-        donateLink: 'https://alkhidmat.org/akf-donations.php',
+      name: 'Alkhidmat Foundation Pakistan',
+      role: 'Charity Orgnization',
+      image: alkhidmatImage,
+      link: 'https://alkhidmat.org',
+      donateLink: 'https://alkhidmat.org/akf-donations.php',
+      accountInfo: {
+        bankName: 'Meezan Bank',
+        accountTitle: 'Al-Khidmat Foundation Pakistan',
+        accountNumber: '02140100861151',
+        IBAN: 'PK35MEZN0002140100861151',
+        swiftCode: 'MEZNPKKA',
       },
     },
   ],
@@ -44,23 +70,33 @@ const oragnizations = [
     {
       content:
         'Countless families, women and children are left with nothing but hope, and are in desperate need of chooked food, dry ration packs, tents and medical aid. Donate now and help EDHI Foundation save thousands of precious lives.',
-      organization: {
-        name: 'Eidhi Foundation',
-        role: 'Donation Platform',
-        image: eidhiImage,
-        link: 'https://edhi.org',
-        donateLink: 'https://donate.edhi.org/product/flood-relief-campaign/',
+      name: 'Eidhi Foundation',
+      role: 'Donation Platform',
+      image: eidhiImage,
+      link: 'https://edhi.org',
+      donateLink: 'https://donate.edhi.org/product/flood-relief-campaign/',
+      accountInfo: {
+        bankName: 'MCB Islamic Bank',
+        accountTitle: 'Abdul Sattar Edhi',
+        accountNumber: '1271001064790004',
+        IBAN: 'PK72MCIB1271001064790004',
+        swiftCode: 'MCIBPKKI',
       },
     },
     {
       content:
         'Once again, I request that you please support us in raising funds by making a contribution towards flood relief in victimized areas. Sahara for Life Trust has already provided assistance in the efforts of resettlement of the deadliest floods of Pakistan (2010–2011) in the past few years.',
-      organization: {
-        name: 'Sahara',
-        role: 'Charitable Organization',
-        image: saharaImage,
-        link: 'https://saharaforlife.org',
-        donateLink: 'https://saharaforlife.org/donations/flood-relief/',
+      name: 'Sahara',
+      role: 'Charitable Organization',
+      image: saharaImage,
+      link: 'https://saharaforlife.org',
+      donateLink: 'https://saharaforlife.org/donations/flood-relief/',
+      accountInfo: {
+        bankName: 'Muslim Commercial Bank',
+        accountTitle: 'Sahara Trust',
+        accountNumber: '096303010000340',
+        IBAN: 'PK81MUCB0096303010000340',
+        swiftCode: '',
       },
     },
   ],
@@ -68,33 +104,33 @@ const oragnizations = [
     {
       content:
         'Monsoon rains have led to intense flooding across Pakistan. We ask you all to step forward and be someone’s support.',
-      organization: {
-        name: 'Share Rizq',
-        role: 'Welfare Orgnization',
-        image: rizqImage,
-        link: 'https://sharerizq.com',
-        donateLink: 'https://sharerizq.com/en/campaigns/191',
+      name: 'Share Rizq',
+      role: 'Welfare Orgnization',
+      image: rizqImage,
+      link: 'https://sharerizq.com',
+      donateLink: 'https://sharerizq.com/en/campaigns/191',
+      accountInfo: {
+        bankName: 'Bank Islami',
+        accountTitle: 'Rizq Trust',
+        accountNumber: '204300255930001',
+        IBAN: 'PK70BKIP0204300255930001',
+        swiftCode: 'BKIPPKKA',
       },
     },
     {
       content:
         'Flood victims are waiting for your help Together with Selani Welfare, join us in helping these Pakistani brothers who are stuck in trouble.',
-      organization: {
-        name: 'Saylani Welfare International Trust',
-        role: 'Welfare Orgnization',
-        image: switImage,
-        link: 'https://www.saylaniwelfare.com/',
-        donateLink: 'https://www.saylaniwelfare.com/en/donate',
-      },
-    },
-    {
-      content: 'Help the flood victims. Victims are waiting for you',
-      organization: {
-        name: 'JDC Foundation',
-        role: 'Welfare Organization',
-        image: jdcImage,
-        link: 'https://jdcwelfare.org',
-        donateLink: 'https://jdcwelfare.org/campaigns/flood-relief-fund/',
+      name: 'Saylani Welfare International Trust',
+      role: 'Welfare Orgnization',
+      image: switImage,
+      link: 'https://www.saylaniwelfare.com/',
+      donateLink: 'https://www.saylaniwelfare.com/en/donate',
+      accountInfo: {
+        bankName: 'Dubai Islamic Bank',
+        accountTitle: 'Saylani Welfare',
+        accountNumber: '0010011036001',
+        IBAN: 'PK46DUIB0000000011036001',
+        swiftCode: 'DUIBPKKA',
       },
     },
   ],
@@ -102,23 +138,33 @@ const oragnizations = [
     {
       content:
         'FGRF is working day and night to help the flood victims. Donation camps established at various places under FGRF for relief in flood affected areas.',
-      organization: {
-        name: 'Dawat-e-Islami',
-        role: 'Non-political Islamic organization',
-        image: imageDawateIslami,
-        link: 'https://www.dawateislami.net',
-        donateLink: 'https://www.dawateislami.net/onlinedonation/',
+      name: 'Dawat-e-Islami',
+      role: 'Non-political Islamic organization',
+      image: imageDawateIslami,
+      link: 'https://www.dawateislami.net',
+      donateLink: 'https://www.dawateislami.net/onlinedonation/',
+      accountInfo: {
+        bankName: 'Dubai Islamic Bank',
+        accountTitle: 'Dawat-e-Islami Trust Nafia',
+        accountNumber: '1760135392015',
+        IBAN: 'PK10DUIB0000000135392015',
+        swiftCode: 'DUIBPKKA',
       },
     },
     {
       content:
         'Help Us, Help Them! Our mission to provide relief to the affectees needs your help in continuing these efforts by contributing, sharing, and spreading our message across the country. Do your part in ensuring Hope Not Out for all.',
-      organization: {
-        name: 'Shahid Afrid Foundation',
-        role: 'Non-profit Organization',
-        image: imageSAF,
-        link: 'https://shahidafridifoundation.org/',
-        donateLink: 'https://shahidafridifoundation.org/donation/',
+      name: 'Shahid Afrid Foundation',
+      role: 'Non-profit Organization',
+      image: imageSAF,
+      link: 'https://shahidafridifoundation.org/',
+      donateLink: 'https://shahidafridifoundation.org/donation/',
+      accountInfo: {
+        bankName: 'Dubai Islamic Bank',
+        accountTitle: 'Shahid Afridi Foundation',
+        accountNumber: '0090471290005',
+        IBAN: 'PK43DUIB0000000471290005',
+        swiftCode: 'DUIBPKKA',
       },
     },
   ],
@@ -126,12 +172,32 @@ const oragnizations = [
     {
       content:
         "Help Pakistan's flood victims by donating to Dawn Relief, We want to extend our efforts to flood-stricken areas across the country. Help us do so by donating generously.",
-      organization: {
-        name: 'DAWN Relief',
-        role: 'Media Agency',
-        image: imageDawn,
-        link: '',
-        donateLink: 'https://www.dawn.com/news/1706906',
+      name: 'DAWN Relief',
+      role: 'Media Agency',
+      image: imageDawn,
+      link: 'https://www.dawn.com',
+      donateLink: 'https://www.dawn.com/news/1706906',
+      accountInfo: {
+        bankName: 'Nation Bank of Pakistan',
+        accountTitle: 'Dawn Relief Earthquake Welfare Org.',
+        accountNumber: '4000373293',
+        IBAN: 'PK81NBPA0223004000373293',
+        swiftCode: 'NBPPKKA',
+      },
+    },
+    {
+      content: 'Help the flood victims. Victims are waiting for you',
+      name: 'JDC Foundation',
+      role: 'Welfare Organization',
+      image: jdcImage,
+      link: 'https://jdcwelfare.org',
+      donateLink: 'https://jdcwelfare.org/campaigns/flood-relief-fund/',
+      accountInfo: {
+        bankName: 'Bank Al-Habib',
+        accountTitle: 'JDC Welfare Organization',
+        accountNumber: '10310081011633012',
+        IBAN: 'PK11BAHL1031008101163301',
+        swiftCode: 'BAHLPKKA',
       },
     },
   ],
@@ -139,24 +205,210 @@ const oragnizations = [
     {
       content:
         'The floods in Sindh, Punjab and Balochistan have taken many lives, homes and livelihoods of people. They need your urgent and help and support.',
-      organization: {
-        name: 'HANDS',
-        role: 'Non-profit Organization',
-        image: handsImage,
-        link: 'https://hands.org.pk',
-        donateLink: 'https://hands.org.pk/ways-to-donate/',
+      name: 'HANDS',
+      role: 'Non-profit Organization',
+      image: handsImage,
+      link: 'https://hands.org.pk',
+      donateLink: 'https://hands.org.pk/ways-to-donate/',
+      accountInfo: {
+        bankName: 'Bank Islami',
+        accountTitle: 'HANDS',
+        accountNumber: '0111100073900202',
+        IBAN: 'PK70BKIP0111100073900202',
+        swiftCode: 'BKIPPKKA',
       },
     },
   ],
 ]
 
-function QuoteIcon(props) {
-  return (
-    <svg aria-hidden="true" width={105} height={78} {...props}>
-      <path d="M25.086 77.292c-4.821 0-9.115-1.205-12.882-3.616-3.767-2.561-6.78-6.102-9.04-10.622C1.054 58.534 0 53.411 0 47.686c0-5.273.904-10.396 2.712-15.368 1.959-4.972 4.746-9.567 8.362-13.786a59.042 59.042 0 0 1 12.43-11.3C28.325 3.917 33.599 1.507 39.324 0l11.074 13.786c-6.479 2.561-11.677 5.951-15.594 10.17-3.767 4.219-5.65 7.835-5.65 10.848 0 1.356.377 2.863 1.13 4.52.904 1.507 2.637 3.089 5.198 4.746 3.767 2.41 6.328 4.972 7.684 7.684 1.507 2.561 2.26 5.5 2.26 8.814 0 5.123-1.959 9.19-5.876 12.204-3.767 3.013-8.588 4.52-14.464 4.52Zm54.24 0c-4.821 0-9.115-1.205-12.882-3.616-3.767-2.561-6.78-6.102-9.04-10.622-2.11-4.52-3.164-9.643-3.164-15.368 0-5.273.904-10.396 2.712-15.368 1.959-4.972 4.746-9.567 8.362-13.786a59.042 59.042 0 0 1 12.43-11.3C82.565 3.917 87.839 1.507 93.564 0l11.074 13.786c-6.479 2.561-11.677 5.951-15.594 10.17-3.767 4.219-5.65 7.835-5.65 10.848 0 1.356.377 2.863 1.13 4.52.904 1.507 2.637 3.089 5.198 4.746 3.767 2.41 6.328 4.972 7.684 7.684 1.507 2.561 2.26 5.5 2.26 8.814 0 5.123-1.959 9.19-5.876 12.204-3.767 3.013-8.588 4.52-14.464 4.52Z" />
-    </svg>
-  )
-}
+const UsaOrganizations = [
+  [
+    {
+      content: '',
+      name: 'Helping Hands for Relief & Development',
+      role: 'Non-profit Organization',
+      image: imageHhrd,
+      link: 'https://www1.hhrd.org',
+      donateLink:
+        'https://www1.hhrd.org/Campaigns/Pakistan-Relief/Pakistan-Flood-Relief',
+    },
+    {
+      content: '',
+      name: 'The Citizens Foundation USA',
+      role: 'Non-profit Organization',
+      image: imageTcfUs,
+      link: 'https://www.tcfusa.org',
+      donateLink: 'https://www.tcfusa.org/floodrelief/',
+    },
+  ],
+  [
+    {
+      content: '',
+      name: 'Zakat Foundation of America',
+      role: 'Non-profit Charity Organization',
+      image: imageZakatUs,
+      link: 'https://www.zakat.org/',
+      donateLink:
+        'https://www.zakat.org/get-involved/pakistan-flood-relief-2022#give',
+    },
+    {
+      content: '',
+      name: 'Human Development Foundation',
+      role: 'Non-profit Organization',
+      image: imageHumanDevelopment,
+      link: 'https://www.hdf.com',
+      donateLink: 'https://www.hdf.com/donation/donate',
+    },
+  ],
+  [
+    {
+      content: '',
+      name: 'Islamic Relief USA',
+      role: 'Non-profit Organization',
+      image: imageIslamicRelief,
+      link: 'https://irusa.org/asia/pakistan/',
+      donateLink: 'https://secure.irusa.org/donate/give-gift',
+    },
+    {
+      content: '',
+      name: 'Eidhi Internation',
+      role: 'Non-profit Organization',
+      image: eidhiImage,
+      link: 'https://edhina.org/',
+      donateLink: 'https://edhina.org/',
+    },
+  ],
+  [
+    {
+      content: '',
+      name: 'Muslim Aid USA',
+      role: 'Non-profit Organization',
+      image: imageMausa,
+      link: 'https://www.mausa.org/',
+      donateLink: 'https://www.mausa.org/pakistan-flood-emergency/',
+    },
+    {
+      content: '',
+      name: 'Rizq',
+      role: 'Non-profit Organization',
+      image: rizqImage,
+      link: 'https://share-rizq.org',
+      donateLink:
+        'https://www.launchgood.com/campaign/flood_relief_for_pakistan',
+    },
+  ],
+  [
+    {
+      content: '',
+      name: 'iCare Foundation',
+      role: 'Non-profit Organization',
+      image: imageIcare,
+      link: 'https://i-care-america.org/',
+      donateLink: 'https://i-care-america.org/charity/icare-flood-appeal/',
+    },
+    {
+      content: '',
+      name: 'Hidaya Foundation',
+      role: 'Non-profit Organization',
+      image: imageHidaya,
+      link: 'https://www.hidaya.org/',
+      donateLink:
+        'https://www.hidaya.org/social-welfare/disaster-relief/pakistan-floods-2022/',
+    },
+  ],
+  [
+    {
+      content: '',
+      name: 'Paani Project',
+      role: 'Non-profit Organization',
+      image: imagePaani,
+      link: 'https://www.paaniproject.org/',
+      donateLink:
+        'https://www.launchgood.com/campaign/pakistan_flood_relief__paani',
+    },
+    {
+      content: '',
+      name: 'Pakistan Science Engineering Foundation',
+      role: 'Non-profit Organization',
+      image: imagePaksef,
+      link: 'https://paksef.org/',
+      donateLink:
+        'https://www.paypal.com/donate?token=v9D4kjxtnVWR3o-kYiUFit7-9MWEsJ3DniLD75jQjesBPfOqiB4KLLEwgK7Zj8MhFaBDOFSHrxc8KpE9',
+    },
+  ],
+  [
+    {
+      content: '',
+      name: 'Minhaj Welfare Foundation',
+      role: 'Non-profit Organization',
+      image: imageMwf,
+      link: 'https://mwfusa.org',
+      donateLink: 'https://mwfusa.org/donate/causes/pakistanfloods/',
+    },
+  ],
+  [
+    {
+      content: '',
+      name: 'Hope USA',
+      role: 'Non-profit Organization',
+      image: imageHope,
+      link: 'https://www.hopecharityusa.org',
+      donateLink: 'https://www.hopecharityusa.org/donate-today',
+    },
+  ],
+  [
+    {
+      content: '',
+      name: 'Akhuwat USA',
+      role: 'Non-profit Organization',
+      image: imageAkhuwatUs,
+      link: 'https://www.akhuwat.org',
+      donateLink: 'https://www.akhuwat.org/donate',
+    },
+  ],
+]
+
+const UkOrganizations = [
+  [
+    {
+      content: '',
+      name: 'Muslim Aid UK',
+      role: 'Non-profit Organization',
+      image: imageMuslimAid,
+      link: 'https://www.muslimaid.org',
+      donateLink: 'https://www.muslimaid.org/pakistan-flood-emergency',
+    },
+    {
+      content: '',
+      name: 'Islamic Relief UK',
+      role: 'Non-profit Organization',
+      image: imageIslamicRelief,
+      link: 'https://www.islamic-relief.org.uk',
+      donateLink: 'https://www.islamic-relief.org.uk/pakistan-floods-appeal',
+    },
+  ],
+  [
+    {
+      content: '',
+      name: 'Agosh UK',
+      role: 'Non-profit Organization',
+      image: imageAgosh,
+      link: 'https://www.aghosh.co.uk',
+      donateLink: 'https://www.aghosh.co.uk/donate/emergency-flood-appeal/',
+    },
+  ],
+  [
+    {
+      content: '',
+      name: 'Alkhidmat UK',
+      role: 'Non-profit Organization',
+      image: alkhidmatImage,
+      link: 'https://alkhidmatuk.org',
+      donateLink:
+        'https://alkhidmatuk.org/donate-now/ways-to-donate/pakistan-flood-relief/',
+    },
+  ],
+]
 
 export function WelfareOrganizations() {
   return (
@@ -177,60 +429,170 @@ export function WelfareOrganizations() {
             in the process of adding more as we get their details.
           </p>
         </div>
-        <ul
-          role="list"
-          className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:gap-8 lg:mt-20 lg:max-w-none lg:grid-cols-3"
-        >
-          {oragnizations.map((column, columnIndex) => (
-            <li key={columnIndex}>
-              <ul role="list" className="flex flex-col gap-y-6 sm:gap-y-8">
-                {column.map((org, orgIndex) => (
-                  <li key={orgIndex}>
-                    <figure className="relative rounded-2xl bg-white p-6 shadow-xl shadow-slate-900/10">
-                      <QuoteIcon className="absolute top-6 left-6 fill-slate-100" />
-                      <blockquote className="relative">
-                        <p className="text-lg tracking-tight text-slate-900">
-                          {org.content}
-                        </p>
-                      </blockquote>
-                      <figcaption className="relative mt-6 flex items-center justify-between border-t border-slate-100 pt-6">
-                        <div>
-                          <p className="text-base font-semibold text-slate-900">
-                            {' '}
-                            {org.organization.name}
-                          </p>
-                          <p className="text-sm text-slate-500">
-                            {org.organization.role}
-                          </p>
-                        </div>
-                        <Link href={org.organization.link} passHref={true}>
-                          <div className="overflow-hidden rounded-full bg-slate-50">
-                            <Image
-                              className="h-14 w-14 object-cover"
-                              src={org.organization.image}
-                              alt={org.organization.name}
-                              width={56}
-                              height={56}
-                            />
-                          </div>
-                        </Link>
-                      </figcaption>
-                      <Link
-                        className="group mt-2 inline-flex items-center text-sm text-blue-500"
-                        href={org.organization.donateLink}
-                        passHref={true}
-                      >
-                        <span>DONATE NOW</span>
-                        <ArrowRightIcon className="ml-2 h-5 w-5 group-hover:w-6" />
-                      </Link>
-                    </figure>
-                  </li>
-                ))}
-              </ul>
-            </li>
-          ))}
-        </ul>
+
+        <section id="pk-organizations" className="mt-16">
+          <h1 className="text-center text-2xl tracking-tight text-slate-900 sm:text-3xl">
+            Local Welfare Organizations
+          </h1>
+          <div className="mx-auto max-w-3xl md:text-center">
+            <p className="text-slate-700">
+              These are Pakistan based welfare and charity organizations whom
+              you can donate to support flood 2022 victoms . Please DONATE NOW
+              as much as you!
+            </p>
+          </div>
+          <CardsContainerOuter>
+            {oragnizations.map((column, columnIndex) => (
+              <li key={columnIndex}>
+                <CardsContainerInner>
+                  {column.map((org, orgIndex) => (
+                    <CardItem
+                      key={columnIndex + '-' + orgIndex}
+                      organization={org}
+                    />
+                  ))}
+                </CardsContainerInner>
+              </li>
+            ))}
+          </CardsContainerOuter>
+        </section>
+
+        <section id="us-organizations" className="mt-20">
+          <h1 className="text-center text-2xl tracking-tight text-slate-900 sm:text-3xl">
+            USA Welfare Organizations
+          </h1>
+          <div className="mx-auto max-w-3xl md:text-center">
+            <p className="text-slate-700">
+              These are USA based welfare and charity organizations whom you can
+              donate to support Pakistan 2022 floods victims. Please DONATE NOW
+              as much as you!
+            </p>
+          </div>
+          <CardsContainerOuter>
+            {UsaOrganizations.map((column, columnIndex) => (
+              <li key={columnIndex}>
+                <CardsContainerInner>
+                  {column.map((org, orgIndex) => (
+                    <CardItem
+                      key={columnIndex + '-' + orgIndex}
+                      organization={org}
+                    />
+                  ))}
+                </CardsContainerInner>
+              </li>
+            ))}
+          </CardsContainerOuter>
+        </section>
+
+        <section id="uk-organizations" className="mt-20">
+          <h1 className="text-center text-2xl tracking-tight text-slate-900 sm:text-3xl">
+            UK Welfare Organizations
+          </h1>
+          <div className="mx-auto max-w-3xl md:text-center">
+            <p className="text-slate-700">
+              These are UK based welfare and charity organizations whom you can
+              donate to support Pakistan 2022 floods victims. Please DONATE NOW
+              as much as you!
+            </p>
+          </div>
+          <CardsContainerOuter>
+            {UkOrganizations.map((column, columnIndex) => (
+              <li key={columnIndex}>
+                <CardsContainerInner>
+                  {column.map((org, orgIndex) => (
+                    <CardItem
+                      key={columnIndex + '-' + orgIndex}
+                      organization={org}
+                    />
+                  ))}
+                </CardsContainerInner>
+              </li>
+            ))}
+          </CardsContainerOuter>
+        </section>
       </Container>
     </section>
+  )
+}
+
+function CardsContainerOuter({ children }) {
+  return (
+    <ul
+      role="list"
+      className="mx-auto mt-4 grid max-w-2xl grid-cols-1 gap-6 sm:gap-8 lg:mt-20 lg:max-w-none lg:grid-cols-3"
+    >
+      {children}
+    </ul>
+  )
+}
+
+function CardsContainerInner({ children }) {
+  return (
+    <ul role="list" className="flex flex-col gap-y-6 sm:gap-y-8">
+      {children}
+    </ul>
+  )
+}
+
+function CardItem({ organization }) {
+  return (
+    <li>
+      <figure className="relative rounded-2xl bg-white p-6 shadow-xl shadow-slate-900/10">
+        <figcaption className="relative my-2 flex items-center justify-between  pt-2">
+          <div>
+            <p className="text-base font-semibold text-slate-900">
+              {organization.name}
+            </p>
+            <p className="text-sm text-slate-500">{organization.role}</p>
+          </div>
+          <Link href={organization.link} passHref={true}>
+            <div className="overflow-hidden rounded-full bg-slate-50">
+              <Image
+                className="h-16 w-16 object-cover"
+                src={organization.image}
+                alt={organization.name}
+                width={56}
+                height={56}
+              />
+            </div>
+          </Link>
+        </figcaption>
+        <div className="mt-2 border-t border-slate-100">
+          <p className="mt-2"></p>
+          {organization.accountInfo && (
+            <AccountInfoCard accountInfo={organization.accountInfo} />
+          )}
+          <Link
+            className="group mt-2 inline-flex items-center text-sm text-blue-500"
+            href={organization.donateLink}
+            passHref={true}
+          >
+            <span>DONATE NOW</span>
+            <ArrowRightIcon className="ml-2 h-5 w-5 group-hover:w-6" />
+          </Link>
+        </div>
+      </figure>
+    </li>
+  )
+}
+
+function AccountInfoCard({ accountInfo }) {
+  return (
+    <blockquote className="relative">
+      <CardRow title="Bank Name: " body={accountInfo.bankName} />
+      <CardRow title="Acc. Title: " body={accountInfo.accountTitle} />
+      <CardRow title="Acc. No: " body={accountInfo.accountNumber} />
+      <CardRow title="IBAN: " body={accountInfo.IBAN} />
+      <CardRow title="Swift Code: " body={accountInfo.swiftCode} />
+    </blockquote>
+  )
+}
+
+function CardRow({ title, body }) {
+  return (
+    <div className="flex w-full flex-row items-center text-sm">
+      <p className="font-semibold">{title}</p>
+      <p className="truncate text-left">&nbsp;{body}</p>
+    </div>
   )
 }
