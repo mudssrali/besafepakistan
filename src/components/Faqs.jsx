@@ -1,4 +1,5 @@
 import Image from 'next/future/image'
+import Link from 'next/link'
 
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-faqs.jpg'
@@ -8,42 +9,51 @@ const faqs = [
     {
       question: 'What are the sources of information on this website?',
       answer:
-        'Most of the stats are quoted from renowed local and internal news agencies including Al-Jazeera, Reuters, the Guardian, Arab News, the News and so on',
+        'Most of the stats are quoted from renowned local and international news agencies including Al-Jazeera, Reuters, the Guardian, Arab News, the News and so on',
     },
     {
       question: 'Are the stats on this websites are updated?',
-      answer: 'Absolutely, we are trying our best to update stats on the hourly bases.',
+      answer:
+        'Absolutely, we are trying our best to update the stats on the daily bases.',
     },
     {
-      question: 'Welfare organizations on this website are authentic and registerd in Pakistan?',
+      question:
+        'Welfare organizations on this website are authentic and registerd in Pakistan?',
       answer:
         'Yes, all the welfare organizations on this website are authentic and registered in Pakistan.',
     },
   ],
   [
     {
-      question: "Is the welfare organizations' account details are valid to donate?",
-      answer: "Yes, we quoted the details as it is mentioned on their offical websites."
+      question:
+        "Is the welfare organizations' account details are valid to donate?",
+      answer:
+        'Yes, we quoted the details as it is mentioned on their offical websites.',
     },
     {
-      question: "Is the fundraisers information valid and double-checked?",
-      answer: "As it's crowdsourcing platform, we haven't be able to check the authencity of the provided details at the moment."
+      question: 'Is the fundraisers information valid and double-checked?',
+      answer:
+        "As it's crowdsourcing platform, we haven't be able to check the authencity of the provided details at the moment. However we're trying our best to verify them.",
     },
     {
-      question: 'Would volunteer data kept private other than government or welfare organizations?',
-      answer: "Absolutely, we would make sure your to keep your data private and don't use for any other purpose."
-    }
+      question:
+        'Would volunteers data kept private other than government or welfare organizations?',
+      answer:
+        "Absolutely, we would make sure your to keep your data private and don't use for any other purpose.",
+    },
   ],
   [
     {
-      question: "Can I contribute to this platform?",
-      answer: "Yes, we need like-minded people to help running this platform by sharing authentic information to general public."
+      question: 'Can I contribute to this platform?',
+      answer:
+        'Yes, we need like-minded people to help running this platform by sharing authentic information to general public.',
     },
     {
-      question: "Who maintain this website?",
-      answer: "This website is built and maintained by Mudassar (https://mudssrali.com), who's manager (software development) at CERP Labs."
-    }
-  ]
+      question: 'Who maintains this website?',
+      answer:
+        "This website is built and maintained by Mudassar, who's manager (software development) at CERP Labs.",
+    },
+  ],
 ]
 
 export function Faqs() {
@@ -70,8 +80,11 @@ export function Faqs() {
             Frequently asked questions
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            If you can’t find what you’re looking for, email our support team
-            and if you’re lucky someone will get back to you.
+            If you can&apos;t find what you’re looking for, email to{' '}
+            <Link href={'https://mudssrali.com/contact'} passHref={true} className='text-blue-500 underline'>
+              Mudassar
+            </Link>
+             {' '}and if you&apos;re lucky he will get back to you.
           </p>
         </div>
         <ul
