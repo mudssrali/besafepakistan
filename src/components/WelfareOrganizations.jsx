@@ -30,6 +30,9 @@ import imagePaani from '@/images/avatars/paani.jpeg'
 import imageMausa from '@/images/avatars/mausa.jpg'
 import imageTcfUs from '@/images/avatars/tcfus.jpeg'
 import imageZakatUs from '@/images/avatars/zakat-us.jpg'
+import imageMuslimHands from '@/images/avatars/muslim-hands.jpg'
+import imageTransparentHands from '@/images/avatars/transparent-hands.jpg' 
+
 
 const oragnizations = [
   [
@@ -396,6 +399,15 @@ const UkOrganizations = [
       link: 'https://www.aghosh.co.uk',
       donateLink: 'https://www.aghosh.co.uk/donate/emergency-flood-appeal/',
     },
+    {
+      content: '',
+      name: 'Muslim Hands UK',
+      role: 'Non-profit Organization',
+      image: imageMuslimHands,
+      link: 'https://muslimhands.org.uk',
+      donateLink:
+        'https://muslimhands.org.uk/donate',
+    },
   ],
   [
     {
@@ -406,6 +418,15 @@ const UkOrganizations = [
       link: 'https://alkhidmatuk.org',
       donateLink:
         'https://alkhidmatuk.org/donate-now/ways-to-donate/pakistan-flood-relief/',
+    },
+    {
+      content: '',
+      name: 'Transparent Hands',
+      role: 'Non-profit Organization',
+      image: imageTransparentHands,
+      link: 'https://www.transparenthands.org/',
+      donateLink:
+        'https://www.transparenthands.org/donate-now/',
     },
   ],
 ]
