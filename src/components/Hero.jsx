@@ -19,14 +19,14 @@ export function Hero() {
         updates, fundraisers and volunteers database
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
-        A crowdsourcing platform to provide latest updates, database of
-        welfare organizations, local fundraisers and volunteers for ongoing flood
+        A crowdsourcing platform to provide latest 2022 floods updates, database of
+        local and international welfare organizations, local fundraisers and volunteers for ongoing flood
         relief efforts across Pakistan.
       </p>
 
       <div className="mt-36 lg:mt-44">
         <p className="font-display text-xl font-bold text-slate-900 md:text-2xl">
-          Devastation caused by Flood
+          Devastation caused by Floods
         </p>
         <ul
           role="list"

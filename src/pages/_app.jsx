@@ -12,11 +12,11 @@ export default function App({ Component, pageProps, router }) {
   const description =
     meta.metaDescription ||
     meta.description ||
-    'A crowdsourcing platform to provide latest flood updates, database of welfare organizations, local fundraisers'
+    'A crowdsourcing platform to provide latest Pakistan 2022 floods updates, database of local and international welfare organizations and local fundraisers'
 
   return (
     <>
-      <Title suffix={"BeSafe Pakistan"}>{meta.metaTitle || meta.title}</Title>
+      <Title suffix={"BeSafePakistan"}>{meta.metaTitle || meta.title}</Title>
       <Head>
         <meta
           key="twitter:card"
