@@ -126,14 +126,23 @@ export default function News() {
             </div>
             <div className="mt-2 space-y-1 text-left">
               <h3 className="font-semibold">
-                <a href={nl.link} className="font-bold focus:outline-none">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href={nl.link}
+                  className="font-bold focus:outline-none"
+                >
                   {/* Extend touch target to entire panel */}
                   <span className="absolute inset-0" aria-hidden="true" />
                   {nl.from}
                 </a>
               </h3>
               <p className="text-gray-700">{nl.title}</p>
-              <p className="text-xs italic text-gray-500">{DateTime.fromFormat(newsDate, "dd-MM-yyyy").toFormat("MMMM dd, yyyy")}</p>
+              <p className="text-xs italic text-gray-500">
+                {DateTime.fromFormat(newsDate, 'dd-MM-yyyy').toFormat(
+                  'MMMM dd, yyyy'
+                )}
+              </p>
             </div>
             <span aria-hidden="true">
               <ArrowUpRightIcon className="pointer-events-none absolute top-6 right-6 h-6 w-6 text-gray-500 group-hover:text-gray-700" />
@@ -158,7 +167,7 @@ function DateSelector({ onChange, selectedDate }) {
     >
       {newsDates.map((d) => (
         <option key={d} value={d}>
-          {DateTime.fromFormat(d, "dd-MM-yyyy").toFormat("MMM dd, yyyy")}
+          {DateTime.fromFormat(d, 'dd-MM-yyyy').toFormat('MMM dd, yyyy')}
         </option>
       ))}
     </select>

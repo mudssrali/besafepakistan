@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Papa from 'papaparse'
 import clsx from 'clsx'
-import Link from 'next/link'
+import a from 'next/link'
 
 import {
   UserIcon,
@@ -116,14 +116,15 @@ export function Fundraisers() {
                       </div>
                       <div>
                         {fundraiser.link && (
-                          <Link
+                          <a
                             className="group mt-2 inline-flex items-center text-sm text-blue-500"
                             href={fundraiser.link}
-                            passHref={true}
+                            target="_blank"
+                            rel='noreferrer'
                           >
                             <span>ONLINE DONATION</span>
                             <ArrowRightIcon className="ml-2 h-5 w-5 group-hover:w-6" />
-                          </Link>
+                          </a>
                         )}
                       </div>
                     </div>

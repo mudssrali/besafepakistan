@@ -1,5 +1,5 @@
 import Image from 'next/future/image'
-import Link from 'next/link'
+import a from 'next/link'
 import { ArrowRightIcon } from '@heroicons/react/24/solid'
 
 import { Container } from '@/components/Container'
@@ -31,8 +31,7 @@ import imageMausa from '@/images/avatars/mausa.jpg'
 import imageTcfUs from '@/images/avatars/tcfus.jpeg'
 import imageZakatUs from '@/images/avatars/zakat-us.jpg'
 import imageMuslimHands from '@/images/avatars/muslim-hands.jpg'
-import imageTransparentHands from '@/images/avatars/transparent-hands.jpg' 
-
+import imageTransparentHands from '@/images/avatars/transparent-hands.jpg'
 
 const oragnizations = [
   [
@@ -405,8 +404,7 @@ const UkOrganizations = [
       role: 'Non-profit Organization',
       image: imageMuslimHands,
       link: 'https://muslimhands.org.uk',
-      donateLink:
-        'https://muslimhands.org.uk/donate',
+      donateLink: 'https://muslimhands.org.uk/donate',
     },
   ],
   [
@@ -425,8 +423,7 @@ const UkOrganizations = [
       role: 'Non-profit Organization',
       image: imageTransparentHands,
       link: 'https://www.transparenthands.org/',
-      donateLink:
-        'https://www.transparenthands.org/donate-now/',
+      donateLink: 'https://www.transparenthands.org/donate-now/',
     },
   ],
 ]
@@ -566,7 +563,7 @@ function CardItem({ organization }) {
             </p>
             <p className="text-sm text-slate-500">{organization.role}</p>
           </div>
-          <Link href={organization.link} passHref={true}>
+          <a href={organization.link} target="_blank" rel="noreferrer">
             <div className="overflow-hidden rounded-full bg-slate-50">
               <Image
                 className="h-16 w-16 object-cover"
@@ -576,21 +573,22 @@ function CardItem({ organization }) {
                 height={56}
               />
             </div>
-          </Link>
+          </a>
         </figcaption>
         <div className="mt-2 border-t border-slate-100">
           <p className="mt-2"></p>
           {organization.accountInfo && (
             <AccountInfoCard accountInfo={organization.accountInfo} />
           )}
-          <Link
+          <a
+            target="_blank"
+            rel="noreferrer"
             className="group mt-2 inline-flex items-center text-sm text-blue-500"
             href={organization.donateLink}
-            passHref={true}
           >
             <span>DONATE NOW</span>
             <ArrowRightIcon className="ml-2 h-5 w-5 group-hover:w-6" />
-          </Link>
+          </a>
         </div>
       </figure>
     </li>
