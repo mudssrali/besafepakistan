@@ -32,12 +32,12 @@ export default function Home() {
         <meta
           key="twitter:title"
           name="twitter:title"
-          content="BeSafePakistan - Pakistan floods 2022 updates and fundraisers database"
+          content="BeSafePakistan - Pakistan 2022 floods updates, local and international organizations, and fundraisers database"
         />
         <meta
           key="og:title"
           property="og:title"
-          content="BeSafePakistan - Pakistan floods 2022 updates and fundraisers database"
+          content="BeSafePakistan - Pakistan 2022 floods updates, local and international organizations, and fundraisers database"
         />
         <title>Pakistan 2022 floods updates &amp; fundraisers database</title>
       </Head>

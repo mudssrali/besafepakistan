@@ -12,7 +12,7 @@ export default function App({ Component, pageProps, router }) {
   const description =
     meta.metaDescription ||
     meta.description ||
-    'A crowdsourcing platform to provide latest Pakistan 2022 floods updates, database of local and international welfare organizations and local fundraisers'
+    'A crowdsourcing platform to provide latest Pakistan 2022 floods updates, database of local and international welfare organizations, and fundraisers'
 
   return (
     <>

@@ -18,7 +18,7 @@ export default function News() {
 
 News.layoutProps = {
   meta: {
-    title: 'Pakistan 2022 floods in News',
+    title: 'Pakistan 2022 floods news coverage',
     description:
       'Heavy flooding in Pakistan is being reported and watched across the globe - Pakistan Blames Climate Change for Deadly Floods, Declares Emergency',
   },
