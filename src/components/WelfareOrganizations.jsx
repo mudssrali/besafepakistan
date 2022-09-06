@@ -437,7 +437,7 @@ export function WelfareOrganizations() {
           <div className="mx-auto max-w-3xl md:text-center">
             <p className="text-slate-700">
               These are Pakistan based welfare and charity organizations whom
-              you can donate to support flood 2022 victoms . Please DONATE NOW
+              you can donate to support flood 2022 victims . Please DONATE NOW
               as much as you!
             </p>
           </div>

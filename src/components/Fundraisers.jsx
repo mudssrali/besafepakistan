@@ -31,7 +31,7 @@ export function Fundraisers() {
       <Container>
         <div className="mb-8 max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl md:text-5xl">
-            Regional Flood Fundraisers | Donate Now
+            Regional Flood Fundraisers
           </h2>
           <p className="mt-6 text-lg tracking-tight text-slate-700">
             These are local the fundraisers whom you can donate money, dry
