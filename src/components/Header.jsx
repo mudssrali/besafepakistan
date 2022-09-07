@@ -108,8 +108,8 @@ export function Header() {
             </div>
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-6">
-            <p className="text-sm text-slate-700">
-              Last updated:{' '}
+            <p className="text-xs md:text-sm text-slate-700">
+              Updated on:{' '}
               {DateTime.fromISO(lastUpdatedOn).toFormat('MMM dd, yyyy')}
             </p>
             <div className="-mr-1 md:hidden">

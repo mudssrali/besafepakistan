@@ -24,22 +24,22 @@ export function Hero() {
         relief efforts across Pakistan.
       </p>
 
-      <div className="mt-36 lg:mt-44">
+      <div className="mt-24 lg:mt-44">
         <p className="font-display text-xl font-bold text-slate-900 md:text-2xl">
           Devastation caused by Floods
         </p>
         <ul
           role="list"
-          className="mt-8 flex flex-col items-center justify-center md:gap-x-10 md:flex-row sm:gap-y-10 xl:flex-row xl:gap-x-14 xl:gap-y-0"
+          className="mt-8 flex flex-col items-center justify-center md:gap-x-10 md:flex-row sm:gap-y-10 xl:flex-row xl:gap-x-12 xl:gap-y-0"
         >
           {[
-            { title: 'deaths', count: '1300+' },
-            { title: 'injured', count: '12.5K+' },
-            { title: 'livestock lost', count: '750K+'},
-            { title: 'houses destroyed', count: '1.5M+' },
-            { title: 'acres of crops', count: '2M+' },
-            { title: 'road destroyed', count: '5735KM' },
-            { title: 'bridges', count: '246' }
+            { title: 'Deaths', count: '1300+' },
+            { title: 'Injured', count: '12.5K+' },
+            { title: 'Livestock Lost', count: '750K+'},
+            { title: 'Houses Destroyed', count: '1.5M+' },
+            { title: 'Acres of Crops', count: '2M+' },
+            { title: 'Road Destroyed', count: '5735KM' },
+            { title: 'Bridges', count: '246' }
           ].map((group, groupIndex) => (
             <li key={groupIndex}>
               <ul role="list">
