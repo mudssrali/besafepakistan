@@ -435,6 +435,12 @@
       "imageTitle": "reuters",
       "title": "Pakistan flood toll rises with 25 children among 57 more deaths",
       "link": "https://www.reuters.com/article/idUSL1N30A05X"
+    },
+    {
+      "from": "BBC",
+      "imageTitle": "bbc",
+      "title": "Pakistan floods: 'We spent the whole night running from the flood'",
+      "link": "https://www.bbc.com/news/world-asia-62773943"
     }
   ],
   "04-09-2022": [
@@ -473,6 +479,126 @@
       "imageTitle": "guardian",
       "title": "Pakistan authorities breach lake to save other areas from floods",
       "link": "https://www.theguardian.com/world/2022/sep/04/pakistan-more-floods-lake-manchar-swells-monsoon-rains"
+    }
+  ],
+  "05-09-2022": [
+    {
+      "from": "the Guardian",
+      "imageTitle": "guardian",
+      "title": "Pakistan’s biggest lake may burst banks after draining attempts fail",
+      "link": "https://www.theguardian.com/world/2022/sep/05/pakistan-flooding-lake-manchar-may-burst-banks-after-draining-attempts-fail"
+    },
+    {
+      "from": "DAWN",
+      "imageTitle": "dawn",
+      "title": "Health catastrophe",
+      "link": "https://www.dawn.com/news/1708490/health-catastrophe"
+    },
+    {
+      "from": "Voice of America",
+      "imageTitle": "voa",
+      "title": "Pakistan Flooding, September 5, 2022",
+      "link": "https://www.voanews.com/a/6732161.html"
+    },
+    {
+      "from": "Relief Web | OCHA",
+      "imageTitle": "relief-web",
+      "title": "Flood Disaster in Pakistan Situation Report 6 (05 September 2022)",
+      "link": "https://reliefweb.int/report/pakistan/flood-disaster-pakistan-situation-report-6-05-september-2022"
+    },
+    {
+      "from": "Al-Jazeera",
+      "imageTitle": "al-jazeera",
+      "title": "Death toll in devastating Pakistan floods crosses 1,300 mark",
+      "link": "https://www.aljazeera.com/news/2022/9/5/death-toll-in-devastating-pakistan-floods-crosses-1300"
+    }
+  ],
+  "06-09-2022": [
+    {
+      "from": "the Guardian",
+      "imageTitle": "guardian",
+      "title": "https://www.theguardian.com/world/2022/sep/06/pakistans-monsoon-rains-threaten-world-heritage-site-of-mohenjo-daro",
+      "link": "https://www.theguardian.com/world/2022/sep/06/pakistans-monsoon-rains-threaten-world-heritage-site-of-mohenjo-daro"
+    },
+    {
+      "from": "DW",
+      "imageTitle": "dw",
+      "title": "Pakistan floods: Authorities scramble to drain largest lake",
+      "link": "https://www.dw.com/en/pakistan-floods-authorities-scramble-to-drain-largest-lake/a-63034978"
+    },
+    {
+      "from": "REUTERS",
+      "imageTitle": "reuters",
+      "title": "Pakistan struggles to avert danger as floods rise, death toll tops 1,300",
+      "link": "https://www.reuters.com/world/asia-pacific/pakistan-struggles-avert-danger-floods-rise-death-toll-tops-1300-2022-09-05/"
+    },
+    {
+      "from": "The Washington Post",
+      "imageTitle": "washington-post",
+      "title": "Pakistan’s biggest lake bursts its banks, threatening further floods",
+      "link": "https://www.washingtonpost.com/world/2022/09/06/pakistan-flooding-manchar-lake/"
+    },
+    {
+      "from": "Al-Jazeera",
+      "imageTitle": "al-jazeera",
+      "title": "Flood-hit Pakistan bids to stop its largest lake from overflowing",
+      "link": "https://www.aljazeera.com/news/2022/9/6/un-warns-of-humanitarian-crisis-in-flood-ravaged-pakistan"
+    }
+  ],
+  "07-09-2022": [
+    {
+      "from": "Al-Jazeera",
+      "imageTitle": "al-jazeera",
+      "title": "After record floods, now Pakistan has to worry about economy",
+      "link": "https://www.aljazeera.com/economy/2022/9/7/after-record-floods-now-pakistan-has-to-worry-about-economy"
+    },
+    {
+      "from": "DAWN",
+      "imageTitle": "dawn",
+      "title": "WHO warns of worsening situation in Pakistan",
+      "link": "https://www.dawn.com/news/1708848"
+    },
+    {
+      "from": "CNN",
+      "imageTitle": "cnn",
+      "title": "Fears for babies born into Pakistan’s devastating floods",
+      "link": "https://edition.cnn.com/2022/09/06/asia/pakistan-floods-displace-hunger-sick-intl-hnk/index.html"
+    },
+    {
+      "from": "CNN",
+      "imageTitle": "cnn",
+      "title": "‘We are going to drown’: villagers trapped as Pakistan’s largest lake overflows",
+      "link": "https://edition.cnn.com/2022/09/07/asia/pakistan-flood-lake-manchar-swells-intl-hnk/index.html"
+    },
+    {
+      "from": "BBC",
+      "imageTitle": "bbc",
+      "title": "Pakistan floods: Officials struggle to stop biggest lake overflowing",
+      "link": "https://www.bbc.com/news/world-asia-62764224"
+    },
+    {
+      "from": "NDTV",
+      "imageTitle": "ndtv",
+      "title": "Shame, Misery As Pakistan Floods Leave Many Without Toilets",
+      "link": "https://www.ndtv.com/world-news/shame-misery-as-pakistan-floods-leave-many-without-toilets-3322417"
+    },
+    {
+      "from": "Hindustan Times",
+      "imageTitle": "hindustan-times",
+      "title": "Pakistan looks like a sea: Shehbaz Sharif's emotional appeal amid record floods",
+      "link": "https://www.hindustantimes.com/world-news/pakistan-floods-pakistan-floods-news-pakistan-floods-updates-pakistan-looks-like-a-sea-shehbaz-sharif-s-emotional-appeal-amid-record-floods-101662541117619.html"
+    },
+    {
+      "from": "BBC",
+      "imageTitle": "bbc",
+      "title": "Pakistan floods: Biggest lake subsides amid race to help victims",
+      "link": "https://www.bbc.com/news/world-asia-62811704"
+    },
+    {
+      "from": "Al-Jazeera",
+      "imageTitle": "al-jazeera",
+      "title": "After record floods, now Pakistan has to worry about economy",
+      "link": "https://www.aljazeera.com/economy/2022/9/7/after-record-floods-now-pakistan-has-to-worry-about-economy"
     }
   ]
 }
