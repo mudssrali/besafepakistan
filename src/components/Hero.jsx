@@ -33,17 +33,18 @@ export function Hero() {
           className="mt-8 flex flex-col items-center justify-center md:gap-x-10 md:flex-row sm:gap-y-10 xl:flex-row xl:gap-x-14 xl:gap-y-0"
         >
           {[
-            { title: 'houses destroyed', count: '350K+' },
-            { title: 'houses damaged', count: '730K+' },
-            { title: 'acres of crops impacted', count: '2M+' },
-            { title: 'deaths', count: '1,290+' },
-            { title: 'injured', count: '1,600+' },
-            { title: 'livestock lost', count: '730K+'}
+            { title: 'deaths', count: '1300+' },
+            { title: 'injured', count: '12.5K+' },
+            { title: 'livestock lost', count: '750K+'},
+            { title: 'houses destroyed', count: '1.5M+' },
+            { title: 'acres of crops', count: '2M+' },
+            { title: 'road destroyed', count: '5735KM' },
+            { title: 'bridges', count: '246' }
           ].map((group, groupIndex) => (
             <li key={groupIndex}>
               <ul role="list">
                 <div className="flex flex-col items-center">
-                  <p className="font-bold text-blue-500 text-2xl md:text-6xl">
+                  <p className="font-bold text-blue-500 text-3xl sm:text-4xl">
                     {group.count}
                   </p>
                   <p>{group.title}</p>
