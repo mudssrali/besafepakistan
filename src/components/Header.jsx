@@ -3,10 +3,11 @@ import Link from 'next/link'
 import { Popover, Transition } from '@headlessui/react'
 import clsx from 'clsx'
 
-import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { Logo } from '@/components/Logo'
 import { NavLink } from '@/components/NavLink'
+import { DateTime } from 'luxon'
+import { lastUpdatedOn } from '@/utils/version'
 
 function MobileNavLink({ href, children }) {
   return (
@@ -77,12 +78,11 @@ function MobileNavigation() {
             as="div"
             className="absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-2xl bg-white p-4 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5"
           >
-            <MobileNavLink href="/#welfare-organizations">Welfare Organizations</MobileNavLink>
+            <MobileNavLink href="/#welfare-organizations">
+              Welfare Organizations
+            </MobileNavLink>
             <MobileNavLink href="/#fundraisers">Fundraisers</MobileNavLink>
             <MobileNavLink href="/news">News</MobileNavLink>
-
-            {/* <hr className="m-2 border-slate-300/40" />
-            <MobileNavLink href="/contact-us">Contact us</MobileNavLink> */}
           </Popover.Panel>
         </Transition.Child>
       </Transition.Root>
@@ -100,20 +100,18 @@ export function Header() {
               <Logo className="h-10 w-auto" />
             </Link>
             <div className="hidden md:flex md:gap-x-6">
-              <NavLink href="/#welfare-organizations">Welfare Organizations</NavLink>
+              <NavLink href="/#welfare-organizations">
+                Welfare Organizations
+              </NavLink>
               <NavLink href="/#fundraisers">Fundraisers</NavLink>
               <NavLink href="/news">News</NavLink>
             </div>
           </div>
-          <div className="flex items-center gap-x-5 md:gap-x-8">
-            {/* <div className="hidden md:block">
-              <NavLink href="/contact-us">Contact Us</NavLink>
-            </div> */}
-            <Button href="https://forms.gle/8GXomnawWxiQu76D7" color="blue">
-              <span>
-                Become Volunteer
-              </span>
-            </Button>
+          <div className="flex items-center gap-x-5 md:gap-x-6">
+            <p className="text-sm text-slate-700">
+              Last updated:{' '}
+              {DateTime.fromISO(lastUpdatedOn).toFormat('MMM dd, yyyy')}
+            </p>
             <div className="-mr-1 md:hidden">
               <MobileNavigation />
             </div>
