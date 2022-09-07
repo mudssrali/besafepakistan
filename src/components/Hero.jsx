@@ -25,7 +25,7 @@ export function Hero() {
       </p>
 
       <div className="mt-24 lg:mt-44">
-        <p className="font-display text-xl font-bold text-slate-900 md:text-2xl">
+        <p className="font-display text-2xl text-slate-900 sm:text-3xl">
           Devastation caused by Floods
         </p>
         <ul
