@@ -29,6 +29,14 @@ import logoBusinessStandard from '@/images/logos/business-standard.png'
 import logoArabNews from '@/images/logos/arab-news.png'
 import logoNasa from '@/images/logos/nasa.png'
 import logoNature from '@/images/logos/nature.svg'
+import logoNytimes from '@/images/logos/nytimes.png'
+import logoTribune from '@/images/logos/tribune.jpg'
+import logoBloomberg from '@/images/logos/bloomberg.jpg'
+import logoSpace from '@/images/logos/space.jpg'
+import logoTrtworld from '@/images/logos/trtworld.png'
+import logoToi from '@/images/logos/toi.png'
+import logoUsaToday from '@/images/logos/usa-today.jpg'
+import logoKhaleejTimes from '@/images/logos/khaleej-times.jpg'
 
 const logos = {
   dw: logoDw,
@@ -52,6 +60,14 @@ const logos = {
   'arab-news': logoArabNews,
   nasa: logoNasa,
   nature: logoNature,
+  nytimes: logoNytimes,
+  tribune: logoTribune,
+  bloomberg: logoBloomberg,
+  space: logoSpace,
+  trtworld: logoTrtworld,
+  toi: logoToi,
+  "usa-today": logoUsaToday,
+  "khaleej-times": logoKhaleejTimes
 }
 
 export function NewsLinks() {
