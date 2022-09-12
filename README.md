@@ -25,7 +25,7 @@ This is initial version of [BeSafePakistan](https://besafepakistan.com) however 
 - [ ] Show flood devastation stats in form interactive graphs, charts etc (data gathering in process)
 - [ ] Show all news links with on-scroll animation
 - [ ] Improve rendering `fundraisers` data (formatting and cleaning up the data - WIP)
-- [ ] Add functionality to export fundraisers data as CSV (already plugged `papaparse`, see in *`Fundraisers.jsx`*)
+- [ ] Add functionality to export fundraisers data as CSV
 - [ ] Add functionality to copy welfare organization bank account details (only for local), See *`Fundraisers.jsx`* already implemented something like this
 - [ ] Update news links daily
 - [ ] Update flood devastation stats daily
