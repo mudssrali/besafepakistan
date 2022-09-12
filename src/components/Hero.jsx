@@ -19,9 +19,9 @@ export function Hero() {
         updates, fundraisers and volunteers database
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
-        A crowdsourcing platform to provide latest 2022 floods updates, database of
-        local and international welfare organizations, local fundraisers and volunteers for ongoing flood
-        relief efforts across Pakistan.
+        A crowdsourcing platform to provide latest 2022 floods updates, database
+        of local and international welfare organizations, local fundraisers and
+        volunteers for ongoing flood relief efforts across Pakistan.
       </p>
 
       <div className="mt-24 lg:mt-44">
@@ -30,7 +30,7 @@ export function Hero() {
         </p>
         <ul
           role="list"
-          className="mt-8 flex flex-col items-center justify-center md:gap-x-10 md:flex-row sm:gap-y-10 xl:flex-row xl:gap-x-12 xl:gap-y-0"
+          className="mt-8 flex flex-col items-center justify-center sm:gap-y-10 md:flex-row md:gap-x-10 xl:flex-row xl:gap-x-12 xl:gap-y-0"
         >
           {[
             { title: 'People Killed', count: '1.5K' },
@@ -38,14 +38,14 @@ export function Hero() {
             { title: 'Houses Destroyed', count: '556K' },
             { title: 'Houses Damaged', count: '1.17M' },
             { title: 'Acres of Crops', count: '2M+' },
-            { title: 'Livestock Lost', count: '750K+'},
+            { title: 'Livestock Lost', count: '750K+' },
             { title: 'Road Destroyed', count: '6.7KM' },
-            { title: 'Bridges', count: '246' }
+            { title: 'Bridges', count: '246' },
           ].map((group, groupIndex) => (
             <li key={groupIndex}>
               <ul role="list">
                 <div className="flex flex-col items-center">
-                  <p className="font-bold text-blue-500 text-3xl sm:text-4xl">
+                  <p className="text-3xl font-bold text-blue-500 sm:text-4xl">
                     {group.count}
                   </p>
                   <p>{group.title}</p>

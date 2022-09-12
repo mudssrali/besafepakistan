@@ -11,12 +11,11 @@ import screenshotKPK from '@/images/screenshots/kpk-road-destroyed.jpg'
 import screenshotPunjab from '@/images/screenshots/punjab-relief-work.webp'
 import backgroundPrimaryImage from '@/images/background-primary.jpg'
 
-
 const provinces = [
   {
     title: 'Balochistan',
     description:
-      "Flooding in Balochistan killed 263 people. In many areas, rainwater infiltrated many homes and made them uninhabitable. Many families were displaced.",
+      'Flooding in Balochistan killed 263 people. In many areas, rainwater infiltrated many homes and made them uninhabitable. Many families were displaced.',
     image: screenshotBalochistan,
   },
   {
@@ -28,13 +27,13 @@ const provinces = [
   {
     title: 'KPK',
     description:
-      "Since July, a total of at least 293 people have been killed and more than 600,000 others were displaced by floods.",
+      'Since July, a total of at least 293 people have been killed and more than 600,000 others were displaced by floods.',
     image: screenshotKPK,
   },
   {
     title: 'Punjab',
     description:
-      "In Punjab, mainly affecting the southern region of the province, a total of 191 people have died and more than 100 others suffered injuries in recent floods.",
+      'In Punjab, mainly affecting the southern region of the province, a total of 191 people have died and more than 100 others suffered injuries in recent floods.',
     image: screenshotPunjab,
   },
   {
@@ -42,7 +41,7 @@ const provinces = [
     description:
       'At least 577 people have been killed and more than 1,000 have been injured by floods in Sindh. Among the fatalities were three young children, who died when the roof of their house collapsed in Kandhkot.',
     image: screenshotSindh,
-  }
+  },
 ]
 
 export function ProvincesAtGlance() {
@@ -82,8 +81,9 @@ export function ProvincesAtGlance() {
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
             Flood Desvastion Continues Across Pakistan
           </h2>
-          <p className="mt-6 text-lg tracking-tight text-blue-100 font-semibold">
-            More than 33 million people have been displaced as destructive monsoon rains continue to wreak havoc
+          <p className="mt-6 text-lg font-semibold tracking-tight text-blue-100">
+            More than 33 million people have been displaced as destructive
+            monsoon rains continue to wreak havoc
           </p>
         </div>
         <Tab.Group

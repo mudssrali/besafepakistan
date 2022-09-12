@@ -81,10 +81,14 @@ export function Faqs() {
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
             If you can&apos;t find what you’re looking for, email to{' '}
-            <Link href={'https://mudssrali.com/contact'} passHref={true} className='text-blue-500 underline'>
+            <Link
+              href={'https://mudssrali.com/contact'}
+              passHref={true}
+              className="text-blue-500 underline"
+            >
               Mudassar
-            </Link>
-             {' '}and if you&apos;re lucky he will get back to you.
+            </Link>{' '}
+            and if you&apos;re lucky he will get back to you.
           </p>
         </div>
         <ul

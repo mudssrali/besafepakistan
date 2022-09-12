@@ -12,7 +12,9 @@ export function Footer() {
           <Logo className="mx-auto h-10 w-auto" />
           <nav className="mt-10 text-sm" aria-label="quick links">
             <div className="-my-1 flex justify-center gap-x-6">
-              <NavLink href="/#welfare-organizations">Welfare Organizations</NavLink>
+              <NavLink href="/#welfare-organizations">
+                Welfare Organizations
+              </NavLink>
               <NavLink href="/#fundraisers">Fundraisers</NavLink>
               <NavLink href="/news">News</NavLink>
             </div>
@@ -23,7 +25,7 @@ export function Footer() {
             <Link
               href="https://twitter.com/mudssrali"
               className="group"
-              aria-label="BeSafe by Mudassar on Twitter"
+              aria-label="BeSafePakistan by Mudassar on Twitter"
             >
               <svg
                 aria-hidden="true"
@@ -33,7 +35,7 @@ export function Footer() {
               </svg>
             </Link>
             <Link
-              href="https://github.com/mudssrali/besafe"
+              href="https://github.com/mudssrali/besafepakistan"
               className="group"
               aria-label="BeSafe on GitHub"
             >
@@ -46,8 +48,8 @@ export function Footer() {
             </Link>
           </div>
           <p className="mt-6 text-sm text-slate-500 sm:mt-0">
-            Copyright &copy; {new Date().getFullYear()} BeSafePakistan. All rights
-            reserved.
+            Copyright &copy; {new Date().getFullYear()} BeSafePakistan. All
+            rights reserved.
           </p>
         </div>
       </Container>

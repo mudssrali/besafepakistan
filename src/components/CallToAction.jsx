@@ -13,9 +13,10 @@ export function CallToAction() {
             Come out and Help Them
           </h2>
           <p className="mt-4 text-lg tracking-tight text-black">
-            It&apos;s time to help saving precious lives. Be the part of communities
-            or work with local and international welfare organizations or government departments that need your help for flood victims
-            across Pakistan from mobilization to raising voice.
+            It&apos;s time to help saving precious lives. Be the part of
+            communities or work with local and international welfare
+            organizations or government departments that need your help for
+            flood victims across Pakistan from mobilization to raising voice.
           </p>
           <Button
             href="https://forms.gle/8GXomnawWxiQu76D7"
