@@ -4,7 +4,7 @@ A crowdsourcing platform to provide latest 2022 floods updates, database of loca
 
 ## Getting started
 
-This is static website, built with `next.js` and styled with `tailwindcss 3.0`. To get started with this template, first install the npm dependencies:
+To get started with this template, first install the npm dependencies:
 
 ```bash
 npm install
@@ -15,6 +15,11 @@ Next, run the development server:
 ```bash
 npm run dev
 ```
+
+## Deployment
+
+This is static website, built with `next.js` and styled with `tailwindcss 3.0`. It's deployed on `Netlify` with automated deployment enabled on `main` branch with custom domain.  
+
 
 Finally, open [http://localhost:3000](http://localhost:3000) in your browser to view the website.
 ## Roadmap
