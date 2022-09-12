@@ -4,7 +4,7 @@ import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
-import screenshotBalochistan from '@/images/screenshots/balochistan-family-in-flood.webp'
+import screenshotBalochistan from '@/images/screenshots/flood-in-balochistan.jpg'
 import screenshotSindh from '@/images/screenshots/sindh-flood-street.webp'
 import screenshotGB from '@/images/screenshots/gb-bridge-collapsed.webp'
 import screenshotKPK from '@/images/screenshots/kpk-road-destroyed.jpg'
