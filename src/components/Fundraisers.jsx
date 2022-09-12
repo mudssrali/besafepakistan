@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import Papa from 'papaparse'
 import clsx from 'clsx'
-import a from 'next/link'
 
 import {
   UserIcon,
@@ -9,11 +8,11 @@ import {
   ArrowDownTrayIcon,
   ArrowRightIcon,
 } from '@heroicons/react/24/solid'
-import { ClipboardDocumentIcon } from '@heroicons/react/24/outline'
 
 import { Container } from '@/components/Container'
 import { CharityAttentionCallout } from './CharityAttentionCallout'
 import fundraisers from '@/constants/fundraisers'
+import { CopyToClipBoard } from './CopyToClipboard'
 
 const statusMap = {
   unknown: 0,
@@ -40,7 +39,8 @@ export function Fundraisers() {
         </div>
         <div className="mb-4 flex items-center justify-between">
           <p>
-            <span className="font-semibold">Total Fundraisers</span>: {fundraisers.length}
+            <span className="font-semibold">Total Fundraisers</span>:{' '}
+            {fundraisers.length}
           </p>
           <div className="flex space-x-2">
             <ProvinceSelector onChange={setProvince} />
@@ -103,7 +103,9 @@ export function Fundraisers() {
                       <div className="flex flex-col text-sm text-gray-500 sm:mt-0">
                         <div className="mb-1 flex flex-row justify-between">
                           <p className="font-semibold">Bank Account Details:</p>
-                          <CopyToClipBoard fundraiser={fundraiser} />
+                          <CopyToClipBoard
+                            text={fundraiser.accountInfo}
+                          />
                         </div>
                         <textarea
                           rows={4}
@@ -120,7 +122,7 @@ export function Fundraisers() {
                             className="group mt-2 inline-flex items-center text-sm text-blue-500"
                             href={fundraiser.link}
                             target="_blank"
-                            rel='noreferrer'
+                            rel="noreferrer"
                           >
                             <span>ONLINE DONATION</span>
                             <ArrowRightIcon className="ml-2 h-5 w-5 group-hover:w-6" />
@@ -203,33 +205,5 @@ function ProvinceSelector({ onChange }) {
         </option>
       ))}
     </select>
-  )
-}
-
-function CopyToClipBoard({ fundraiser }) {
-  const [isCopied, setCopied] = useState(false)
-
-  const copyToClipboard = (copyText) => {
-    // copying the output
-    navigator.clipboard.writeText(copyText)
-
-    setCopied(true)
-
-    setTimeout(() => {
-      setCopied(false)
-    }, 1500)
-  }
-
-  return (
-    <>
-      {isCopied ? (
-        <p className="text-sm text-sky-400">copied!</p>
-      ) : (
-        <ClipboardDocumentIcon
-          onClick={() => copyToClipboard(fundraiser.accountInfo)}
-          className={'h-6 w-6 cursor-pointer hover:text-gray-600'}
-        />
-      )}
-    </>
   )
 }
