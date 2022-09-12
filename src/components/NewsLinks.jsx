@@ -66,8 +66,8 @@ const logos = {
   space: logoSpace,
   trtworld: logoTrtworld,
   toi: logoToi,
-  "usa-today": logoUsaToday,
-  "khaleej-times": logoKhaleejTimes
+  'usa-today': logoUsaToday,
+  'khaleej-times': logoKhaleejTimes,
 }
 
 export function NewsLinks() {

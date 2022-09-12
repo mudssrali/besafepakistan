@@ -1,16 +1,15 @@
 import Image from 'next/future/image'
-import a from 'next/link'
 import { ArrowRightIcon } from '@heroicons/react/24/solid'
 
 import { Container } from '@/components/Container'
-import akhuwatImage from '@/images/avatars/akhuwat.jpg'
-import alkhidmatImage from '@/images/avatars/alkhidmat.jpg'
-import eidhiImage from '@/images/avatars/eidhi.jpeg'
-import rizqImage from '@/images/avatars/share-rizq.jpg'
-import saharaImage from '@/images/avatars/sahara.jpg'
-import jdcImage from '@/images/avatars/jdc.jpg'
-import switImage from '@/images/avatars/swit.jpg'
-import handsImage from '@/images/avatars/hands.jpg'
+import imageAkhuwat from '@/images/avatars/akhuwat.jpg'
+import imageAlkhidmat from '@/images/avatars/alkhidmat.jpg'
+import imageEidhi from '@/images/avatars/eidhi.jpeg'
+import imageRizq from '@/images/avatars/share-rizq.jpg'
+import imageSahara from '@/images/avatars/sahara.jpg'
+import imageJdc from '@/images/avatars/jdc.jpg'
+import imageSwit from '@/images/avatars/swit.jpg'
+import imageHands from '@/images/avatars/hands.jpg'
 import imageDawn from '@/images/logos/dawn.png'
 import imageDawateIslami from '@/images/avatars/dawate-islami.jpg'
 import imageSAF from '@/images/avatars/shahid-afridi-foundation.png'
@@ -40,7 +39,7 @@ const oragnizations = [
         'Akhuwat is supporting brothers & sisters severely affected by floods in Balochistan, Sindh & South Punjab. As an immediate action, Akhuwat intends to present cash assistance worth Rs. 3 to 4 thousand to approximately 10,000 families for food & basic necessities.',
       name: 'Akhuwat',
       role: 'Interest free Microfinance Orgnization',
-      image: akhuwatImage,
+      image: imageAkhuwat,
       link: 'https://akhuwat.org.pk',
       donateLink: 'https://donate.akhuwat.org.pk/campaign/1365/flood-relief',
       accountInfo: {
@@ -56,7 +55,7 @@ const oragnizations = [
         'A salute to the efforts of #AlkhidmatVolunteers who are risking their own lives and going above and beyond to save those in need. Even the darkness of the night, the level of flood water and wreckage can not stop our Volunteers.',
       name: 'Alkhidmat Foundation Pakistan',
       role: 'Charity Orgnization',
-      image: alkhidmatImage,
+      image: imageAlkhidmat,
       link: 'https://alkhidmat.org',
       donateLink: 'https://alkhidmat.org/akf-donations.php',
       accountInfo: {
@@ -74,7 +73,7 @@ const oragnizations = [
         'Countless families, women and children are left with nothing but hope, and are in desperate need of chooked food, dry ration packs, tents and medical aid. Donate now and help EDHI Foundation save thousands of precious lives.',
       name: 'Eidhi Foundation',
       role: 'Donation Platform',
-      image: eidhiImage,
+      image: imageEidhi,
       link: 'https://edhi.org',
       donateLink: 'https://donate.edhi.org/product/flood-relief-campaign/',
       accountInfo: {
@@ -90,7 +89,7 @@ const oragnizations = [
         'Once again, I request that you please support us in raising funds by making a contribution towards flood relief in victimized areas. Sahara for Life Trust has already provided assistance in the efforts of resettlement of the deadliest floods of Pakistan (2010–2011) in the past few years.',
       name: 'Sahara',
       role: 'Charitable Organization',
-      image: saharaImage,
+      image: imageSahara,
       link: 'https://saharaforlife.org',
       donateLink: 'https://saharaforlife.org/donations/flood-relief/',
       accountInfo: {
@@ -108,7 +107,7 @@ const oragnizations = [
         'Monsoon rains have led to intense flooding across Pakistan. We ask you all to step forward and be someone’s support.',
       name: 'Share Rizq',
       role: 'Welfare Orgnization',
-      image: rizqImage,
+      image: imageRizq,
       link: 'https://sharerizq.com',
       donateLink: 'https://sharerizq.com/en/campaigns/191',
       accountInfo: {
@@ -124,7 +123,7 @@ const oragnizations = [
         'Flood victims are waiting for your help Together with Selani Welfare, join us in helping these Pakistani brothers who are stuck in trouble.',
       name: 'Saylani Welfare International Trust',
       role: 'Welfare Orgnization',
-      image: switImage,
+      image: imageSwit,
       link: 'https://www.saylaniwelfare.com/',
       donateLink: 'https://www.saylaniwelfare.com/en/donate',
       accountInfo: {
@@ -191,7 +190,7 @@ const oragnizations = [
       content: 'Help the flood victims. Victims are waiting for you',
       name: 'JDC Foundation',
       role: 'Welfare Organization',
-      image: jdcImage,
+      image: imageJdc,
       link: 'https://jdcwelfare.org',
       donateLink: 'https://jdcwelfare.org/campaigns/flood-relief-fund/',
       accountInfo: {
@@ -209,7 +208,7 @@ const oragnizations = [
         'The floods in Sindh, Punjab and Balochistan have taken many lives, homes and livelihoods of people. They need your urgent and help and support.',
       name: 'HANDS',
       role: 'Non-profit Organization',
-      image: handsImage,
+      image: imageHands,
       link: 'https://hands.org.pk',
       donateLink: 'https://hands.org.pk/ways-to-donate/',
       accountInfo: {
@@ -275,7 +274,7 @@ const UsaOrganizations = [
       content: '',
       name: 'Eidhi Internation',
       role: 'Non-profit Organization',
-      image: eidhiImage,
+      image: imageEidhi,
       link: 'https://edhina.org/',
       donateLink: 'https://edhina.org/',
     },
@@ -293,7 +292,7 @@ const UsaOrganizations = [
       content: '',
       name: 'Rizq',
       role: 'Non-profit Organization',
-      image: rizqImage,
+      image: imageRizq,
       link: 'https://share-rizq.org',
       donateLink:
         'https://www.launchgood.com/campaign/flood_relief_for_pakistan',
@@ -412,7 +411,7 @@ const UkOrganizations = [
       content: '',
       name: 'Alkhidmat UK',
       role: 'Non-profit Organization',
-      image: alkhidmatImage,
+      image: imageAlkhidmat,
       link: 'https://alkhidmatuk.org',
       donateLink:
         'https://alkhidmatuk.org/donate-now/ways-to-donate/pakistan-flood-relief/',
