@@ -16,31 +16,31 @@ const provinces = [
   {
     title: 'Balochistan',
     description:
-      "Flooding in Balochistan killed 244 people. In many areas, rainwater infiltrated many homes and made them uninhabitable. Many families were displaced.",
+      "Flooding in Balochistan killed 263 people. In many areas, rainwater infiltrated many homes and made them uninhabitable. Many families were displaced.",
     image: screenshotBalochistan,
   },
   {
     title: 'Gilgit Baltistan',
     description:
-      'Since July, a total of at least 22 people were killed, four are missing and floods badly affected the Karakoram Highway. Roads were closed for traffic at several places due to landslides',
+      'Since July, a total of at least 221 people were killed, four are missing and floods badly affected the Karakoram Highway. Roads were closed for traffic at several places due to landslides',
     image: screenshotGB,
   },
   {
     title: 'KPK',
     description:
-      "Since July, a total of at least 264 people have been killed and 600,000 others were displaced by floods.",
+      "Since July, a total of at least 293 people have been killed and more than 600,000 others were displaced by floods.",
     image: screenshotKPK,
   },
   {
     title: 'Punjab',
     description:
-      "In Punjab, mainly affecting the southern region of the province, a total of 168 people have died and 105 others suffered injuries in recent floods.",
+      "In Punjab, mainly affecting the southern region of the province, a total of 191 people have died and more than 100 others suffered injuries in recent floods.",
     image: screenshotPunjab,
   },
   {
     title: 'Sindh',
     description:
-      'At least 402 people have been killed and 1,055 have been injured by floods in Sindh. Among the fatalities were three young children, who died when the roof of their house collapsed in Kandhkot.',
+      'At least 577 people have been killed and more than 1,000 have been injured by floods in Sindh. Among the fatalities were three young children, who died when the roof of their house collapsed in Kandhkot.',
     image: screenshotSindh,
   }
 ]

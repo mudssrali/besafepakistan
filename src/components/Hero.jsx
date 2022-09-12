@@ -33,12 +33,13 @@ export function Hero() {
           className="mt-8 flex flex-col items-center justify-center md:gap-x-10 md:flex-row sm:gap-y-10 xl:flex-row xl:gap-x-12 xl:gap-y-0"
         >
           {[
-            { title: 'Deaths', count: '1300+' },
-            { title: 'Injured', count: '12.5K+' },
-            { title: 'Livestock Lost', count: '750K+'},
-            { title: 'Houses Destroyed', count: '1.5M+' },
+            { title: 'People Killed', count: '1.5K' },
+            { title: 'People Injured', count: '12.7K+' },
+            { title: 'Houses Destroyed', count: '556K' },
+            { title: 'Houses Damaged', count: '1.17M' },
             { title: 'Acres of Crops', count: '2M+' },
-            { title: 'Road Destroyed', count: '5735KM' },
+            { title: 'Livestock Lost', count: '750K+'},
+            { title: 'Road Destroyed', count: '6.7KM' },
             { title: 'Bridges', count: '246' }
           ].map((group, groupIndex) => (
             <li key={groupIndex}>
