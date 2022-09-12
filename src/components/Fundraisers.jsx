@@ -1,18 +1,12 @@
 import { useState } from 'react'
-import Papa from 'papaparse'
 import clsx from 'clsx'
 
-import {
-  UserIcon,
-  MapPinIcon,
-  ArrowDownTrayIcon,
-  ArrowRightIcon,
-} from '@heroicons/react/24/solid'
+import { UserIcon, MapPinIcon, ArrowRightIcon } from '@heroicons/react/24/solid'
 
 import { Container } from '@/components/Container'
 import { CharityAttentionCallout } from './CharityAttentionCallout'
 import fundraisers from '@/constants/fundraisers'
-import { CopyToClipBoard } from './CopyToClipboard'
+import { CopyToClipBoard } from '@/components/CopyToClipboard'
 
 const statusMap = {
   unknown: 0,
@@ -44,7 +38,6 @@ export function Fundraisers() {
           </p>
           <div className="flex space-x-2">
             <ProvinceSelector onChange={setProvince} />
-            {/* <ExportFundraisers /> */}
           </div>
         </div>
         <div className="max-h-screen overflow-y-auto bg-white shadow sm:rounded-md">
@@ -103,9 +96,7 @@ export function Fundraisers() {
                       <div className="flex flex-col text-sm text-gray-500 sm:mt-0">
                         <div className="mb-1 flex flex-row justify-between">
                           <p className="font-semibold">Bank Account Details:</p>
-                          <CopyToClipBoard
-                            text={fundraiser.accountInfo}
-                          />
+                          <CopyToClipBoard text={fundraiser.accountInfo} />
                         </div>
                         <textarea
                           rows={4}
@@ -138,47 +129,6 @@ export function Fundraisers() {
         <CharityAttentionCallout />
       </Container>
     </section>
-  )
-}
-
-export const downloadAsCSV = (filename = 'flood-fundraisers-2022') => {
-  let csv = Papa.unparse(fundraisers, {
-    quotes: false, //or array of booleans
-    quoteChar: '"',
-    escapeChar: '"',
-    delimiter: ',',
-    header: true,
-    newline: '\r\n',
-    skipEmptyLines: false, //other option is 'greedy', meaning skip delimiters, quotes, and whitespace.
-    columns: [
-      'name',
-      'needs',
-      'contact',
-      'provinces',
-      'sttatus',
-      'accountInfo',
-      'link',
-    ],
-  })
-
-  const hiddenElem = document.createElement('a')
-  hiddenElem.href = 'data:text/csv;charset=utf-8,' + encodeURI(csv)
-  hiddenElem.target = '_blank'
-  hiddenElem.download = `${filename}.csv`
-  hiddenElem.click()
-}
-
-function ExportFundraisers() {
-  return (
-    <button
-      onClick={() => downloadAsCSV()}
-      className="bottom-1 mt-1 inline-flex items-center rounded-md border-2 border-gray-300 py-2 px-3 text-base focus:border-blue-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
-    >
-      <span>
-        <ArrowDownTrayIcon className="h-6 w-6" />
-      </span>
-      <span className="ml-2">CSV</span>
-    </button>
   )
 }
 
