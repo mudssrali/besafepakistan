@@ -436,7 +436,7 @@ export function WelfareOrganizations() {
     >
       <Container>
         <div className="mx-auto max-w-3xl md:text-center">
-          <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
+          <h2 className="font-display text-3xl font-medium tracking-tight text-slate-900 sm:text-4xl">
             Welfare Organizations in Actions
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
@@ -448,10 +448,10 @@ export function WelfareOrganizations() {
         </div>
 
         <section id="pk-organizations" className="mt-16">
-          <h1 className="text-center text-2xl tracking-tight text-slate-900 sm:text-3xl">
+          <h1 className="text-center text-2xl font-medium tracking-tight text-slate-900 sm:text-3xl">
             Local Welfare Organizations
           </h1>
-          <div className="mx-auto max-w-3xl md:text-center">
+          <div className="mx-auto mt-4 max-w-3xl md:text-center">
             <p className="text-slate-700">
               These are Pakistan based welfare and charity organizations whom
               you can donate to support flood 2022 victims . Please DONATE NOW
@@ -475,10 +475,10 @@ export function WelfareOrganizations() {
         </section>
 
         <section id="us-organizations" className="mt-20">
-          <h1 className="text-center text-2xl tracking-tight text-slate-900 sm:text-3xl">
+          <h1 className="text-center text-2xl font-medium tracking-tight text-slate-900 sm:text-3xl">
             USA Welfare Organizations
           </h1>
-          <div className="mx-auto max-w-3xl md:text-center">
+          <div className="mx-auto mt-4 max-w-3xl md:text-center">
             <p className="text-slate-700">
               These are USA based welfare and charity organizations whom you can
               donate to support Pakistan 2022 floods victims. Please DONATE NOW
@@ -502,10 +502,10 @@ export function WelfareOrganizations() {
         </section>
 
         <section id="uk-organizations" className="mt-20">
-          <h1 className="text-center text-2xl tracking-tight text-slate-900 sm:text-3xl">
+          <h1 className="text-center text-2xl font-medium tracking-tight text-slate-900 sm:text-3xl">
             UK Welfare Organizations
           </h1>
-          <div className="mx-auto max-w-3xl md:text-center">
+          <div className="mx-auto mt-4 max-w-3xl md:text-center">
             <p className="text-slate-700">
               These are UK based welfare and charity organizations whom you can
               donate to support Pakistan 2022 floods victims. Please DONATE NOW

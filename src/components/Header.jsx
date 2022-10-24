@@ -95,10 +95,10 @@ export function Header() {
     <header className="py-10">
       <Container>
         <nav className="relative z-50 flex justify-between">
-          <div className="flex items-center md:gap-x-12">
-            <Link href="/" aria-label="Home">
-              <Logo className="h-10 w-auto" />
-            </Link>
+          <div className="flex items-center  md:gap-x-12">
+            <NavLink href="/" aria-label="Home">
+              <Logo className="h-10 w-auto text-green-700" />
+            </NavLink>
             <div className="hidden md:flex md:gap-x-6">
               <NavLink href="/#welfare-organizations">
                 Welfare Organizations
@@ -108,7 +108,7 @@ export function Header() {
             </div>
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-6">
-            <p className="text-xs text-slate-700 md:text-sm">
+            <p className="text-xs text-slate-700 sm:text-sm">
               Updated on:{' '}
               {DateTime.fromISO(lastUpdatedOn).toFormat('MMM dd, yyyy')}
             </p>

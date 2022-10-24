@@ -101,14 +101,14 @@ export function ProvincesAtGlance() {
                       className={clsx(
                         'group relative rounded-full py-1 px-4 lg:rounded-r-none lg:rounded-l-xl lg:p-6',
                         selectedIndex === provinceIndex
-                          ? 'bg-white/20 lg:bg-white/10 lg:ring-1 lg:ring-inset lg:ring-white/10'
+                          ? 'bg-white/20 lg:bg-white/10 lg:ring-1 lg:ring-inset lg:ring-white/40'
                           : 'hover:bg-white/10 lg:hover:bg-white/5'
                       )}
                     >
                       <h3>
                         <Tab
                           className={clsx(
-                            'font-display text-lg [&:not(:focus-visible)]:focus:outline-none',
+                            'font-display text-lg  font-normal sm:font-medium [&:not(:focus-visible)]:focus:outline-none',
                             selectedIndex === provinceIndex
                               ? 'text-white/95 lg:text-white'
                               : 'text-blue-100 hover:text-white lg:text-white'
